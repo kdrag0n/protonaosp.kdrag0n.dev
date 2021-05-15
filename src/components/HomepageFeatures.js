@@ -12,7 +12,7 @@ const FeatureList = [
         With deep, empirically-proven optimizations throughout the system,
         ProtonAOSP is faster and smoother than other Android distributions.
         <br />
-        <Link to="/features#performance-and-battery">Learn more</Link>
+        <Link to="/features#performance">Learn more</Link>
       </>
     ),
   },

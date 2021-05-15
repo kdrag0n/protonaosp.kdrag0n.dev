@@ -7,7 +7,7 @@ slug: /features
 
 ProtonAOSP offers many improvements on the stock Android experience:
 
-- Better performance and battery life
+- Better performance
 - Clean UI design
 - Improved memory management
 - Under-the-hood tweaks
@@ -20,7 +20,7 @@ It also keeps what you're used to on stock:
 - SafetyNet passing out-of-the-box without root
 - Some Pixel-exclusive features
 
-## Better performance & battery life {#performance-and-battery}
+## Better performance {#performance}
 
 ProtonAOSP is more smooth (i.e. less jank) and responds faster than stock. The performance improvements can be attributed to:
 
@@ -100,11 +100,11 @@ Not all Pixel-exclusive features are included due to their proprietary nature, b
 
 Some devices have additional features.
 
-### Pixel 2, Pixel 2 XL
+### Pixel 2, Pixel 2 XL {#device-specific-pixel2}
 
 - Customizable Active Edge implementation
 - Option to disable camera laser focus in Settings
 
-### Pixel 4, Pixel 4 XL
+### Pixel 4, Pixel 4 XL {#device-specific-pixel4}
 
 - Customizable Active Edge implementation
