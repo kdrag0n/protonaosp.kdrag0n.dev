@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Community
 
 We have an active community on Telegram where you can get help, stay up to date, discuss anything related to ProtonAOSP, and more. Join now to get the most out of your experience!
