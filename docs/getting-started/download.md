@@ -11,6 +11,12 @@ Variants with gapps include Google services and apps necessary for most popular 
 
 The following downloads are for the latest version, [11.5.0](/versions/11.5.0).
 
+:::caution
+
+For Pixel devices, XL models are different from their smaller counterparts. Flashing the wrong one could brick your device, so make sure you download the right one.
+
+:::
+
 ## Factory images (recommended)
 
 Factory images can be flashed the same way you would flash stock Pixel factory images from Google. We recommend using them instead of full OTAs because they contain firmware and other parts for a more complete install, especially if you're coming from an old major version of Android. Check the [manual installation guide](/install/manual) for instructions.
