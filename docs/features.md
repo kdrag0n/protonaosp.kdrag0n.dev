@@ -82,6 +82,10 @@ You can keep more apps in memory, thanks to several memory management tweaks:
 - Advanced settings expanded by default
 - Command-line tools for developers (e.g. SSH)
 
+## SafetyNet
+
+Unlike many custom ROMs, ProtonAOSP passes Google's SafetyNet attestation out-of-the-box if you don't root it. However, don't take this for granted — Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
+
 ## Pixel-exclusive features
 
 Not all Pixel-exclusive features are included due to their proprietary nature, but some of them are available:
@@ -92,6 +96,15 @@ Not all Pixel-exclusive features are included due to their proprietary nature, b
 - Adaptive 5G connectivity (Pixel 5+)
 - Adaptive Sound (Pixel 5)
 
-## SafetyNet
+## Device-specific features
 
-Unlike many custom ROMs, ProtonAOSP passes Google's SafetyNet attestation out-of-the-box if you don't root it. However, don't take this for granted — Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
+Some devices have additional features.
+
+### Pixel 2, Pixel 2 XL
+
+- Customizable Active Edge implementation
+- Option to disable camera laser focus in Settings
+
+### Pixel 4, Pixel 4 XL
+
+- Customizable Active Edge implementation
