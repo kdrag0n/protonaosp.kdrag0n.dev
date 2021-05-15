@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
@@ -10,6 +11,8 @@ const FeatureList = [
       <>
         With deep, empirically-proven optimizations throughout the system,
         ProtonAOSP is faster and smoother than other Android distributions.
+        <br />
+        <Link to="/features#performance-and-battery">Learn more</Link>
       </>
     ),
   },
@@ -20,6 +23,8 @@ const FeatureList = [
       <>
         ProtonAOSP's typography, attention to details, and color schemes picked
         with state-of-the-art color science make for a clean and elegant UI.
+        <br />
+        <Link to="/features#ui">Learn more</Link>
       </>
     ),
   },
@@ -30,6 +35,8 @@ const FeatureList = [
       <>
         ProtonAOSP helps keep your data private with camera and microphone
         indicators, internet &amp; sensor permissions, and microG support.
+        <br />
+        <Link to="/features#privacy">Learn more</Link>
       </>
     ),
   },
