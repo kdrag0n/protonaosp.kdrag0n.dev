@@ -13,7 +13,7 @@ ProtonAOSP offers many improvements on the stock Android experience:
 - Under-the-hood tweaks
 - Privacy
 - Convenience
-- Modern default settings
+- Default experience
 
 It also keeps what you're used to on stock:
 
@@ -40,8 +40,8 @@ The performance improvements have been empirically proven on a Pixel 5:
 We pay attention to details in the user interface:
 
 - Easy-to-read typography with [Inter](https://rsms.me/inter/), [Source Serif Pro](https://github.com/adobe-fonts/source-serif), and [Fira Code](https://github.com/tonsky/FiraCode)
-- Light and dark colors derived from the [Primer Design System](https://primer.style/), modified in a perceptual color space
-- Frosted glass blur in the notification shade, recent apps overview, and power menu
+- Light and dark colors derived from the [Primer Design System](https://primer.style/) and modified in a perceptual color space
+- Frosted glass blur with state-of-the-art rendering techniques
 - Fewer distractions in the system
 - Builtin wallpapers designed by Infinitum
 
@@ -55,12 +55,16 @@ You can keep more apps in memory, thanks to several memory management tweaks:
 
 ## Under-the-hood tweaks {#tweaks}
 
+We've fixed some minor bugs from Google's stock OS:
+
 - Better 5 GHz Wi-Fi signal retention
 - High-resolution recents overview
 - Fixes for some AOSP bugs
 - Latest Chromium WebView
 
 ## Privacy
+
+ProtonAOSP is not dedicated to improving privacy or security, but it still has some features to help keep your data private:
 
 - Support for microG
 - Secure quick settings
@@ -71,12 +75,23 @@ You can keep more apps in memory, thanks to several memory management tweaks:
 
 ## Convenience
 
+We also have a few assorted features for your convenience:
+
 - Clear battery usage stats on demand
-- Call recording (where legal)
+- Call recording (where legal with one-party consent)
 - AI-powered back gesture
+- Adaptive brightness toggle in quick settings
 - Memory usage in Settings
 - Advanced settings expanded by default
-- Command-line tools for developers (e.g. SSH)
+- Command-line tools for developers
+
+## Default experience {#defaults}
+
+The out-of-the-box experience is made to fit your needs:
+
+- Modern default settings
+- Material ringtone, alarm, and notification sounds
+- 2D and photo wallpapers
 
 ## SafetyNet
 
