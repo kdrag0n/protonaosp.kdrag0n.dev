@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_fast_loading.svg').default,
     description: (
       <>
-        With deep, empirical-proven optimizations throughout the system,
+        With deep, empirically-proven optimizations throughout the system,
         ProtonAOSP is faster and smoother than other Android distributions.
       </>
     ),
