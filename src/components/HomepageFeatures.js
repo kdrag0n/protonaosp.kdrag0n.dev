@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Privacy',
-    Svg: require('../../static/img/undraw_privacy_protection.svg').default,
+    Svg: require('../../static/img/undraw_private_data.svg').default,
     description: (
       <>
         ProtonAOSP helps keep your data private with camera and microphone
