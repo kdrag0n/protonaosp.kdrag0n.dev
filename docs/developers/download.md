@@ -32,4 +32,4 @@ repo sync -j8
 
 ## Building
 
-See [Build](./build) for instructions to build the downloaded source code.
+See [Build](build.md) for instructions to build the downloaded source code.

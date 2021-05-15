@@ -23,7 +23,7 @@ Keep in mind that Android's shell setup script only supports `bash`. `zsh`, whil
 
 ## Download the source code
 
-If you don't have the source code already, see [Download](./download) to get a copy before building.
+If you don't have the source code already, see [Download](download.md) to get a copy before building.
 
 ## Create a device tree
 
@@ -37,7 +37,7 @@ On devices with a Qualcomm SoC, most device trees for other custom ROMs won't wo
 
 ### Google Pixel devices
 
-Pixel devices are a special case because Google provides AOSP device trees that mostly work out-of-the-box. However, you still need to make some changes in order to get a satisfactory result. The ideal changes are device-specific, but you can use the [official device trees](./official-device-trees) as reference material for adapting other Pixel trees.
+Pixel devices are a special case because Google provides AOSP device trees that mostly work out-of-the-box. However, you still need to make some changes in order to get a satisfactory result. The ideal changes are device-specific, but you can use the [official device trees](official-device-trees.md) as reference material for adapting other Pixel trees.
 
 You can generally test Google's device trees with no modifications if you remove `json-c` from it, but your mileage may vary. Keep in mind that you need to prefix the device codename with `aosp_` when building with unmodified AOSP trees, e.g. `lunch aosp_coral-eng`.
 

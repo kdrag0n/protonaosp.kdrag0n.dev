@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Android is composed of many different source code repositories, and ProtonAOSP is no different. This page lists all the repositories we fork from the Android Open Source Project, as well as repositories that we added and removed.
 
-See [Download](./download) if you just want to download the source code.
+See [Download](download.md) if you just want to download the source code.
 
 ## Custom additions
 

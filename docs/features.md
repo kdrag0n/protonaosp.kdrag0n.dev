@@ -37,7 +37,7 @@ The performance improvements have been empirically proven on a Pixel 5:
 
 ## Easy-to-use guided web installer
 
-ProtonAOSP is easier to install than most other custom ROMs. It features an [easy-to-use guided web installer](/install/web), so installation is just a few clicks and takes as little as 4 minutes (depending on the speed of your internet connection). You don't need to worry about using command-line interfaces, downloading tools, or bricking your device.
+ProtonAOSP is easier to install than most other custom ROMs. It has an [easy-to-use guided web installer](getting-started/install/web.mdx), so installation is just a few clicks and takes as little as 4 minutes (depending on the speed of your internet connection). You don't need to worry about using command-line interfaces, downloading tools, or bricking your device.
 
 ## Clean UI design
 
