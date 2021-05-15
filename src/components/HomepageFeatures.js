@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_fast_loading.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        With deep, empirical-proven optimizations throughout the system,
+        ProtonAOSP is faster and smoother than other Android distributions.
       </>
     ),
   },
@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_design_components.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        ProtonAOSP's typography, attention to details, and color schemes picked
+        with state-of-the-art color science make for a clean and elegant UI.
       </>
     ),
   },
@@ -28,8 +28,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_privacy_protection.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        ProtonAOSP helps keep your data private with camera and microphone
+        indicators, internet &amp; sensor permissions, and microG support.
       </>
     ),
   },
