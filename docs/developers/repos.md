@@ -99,7 +99,7 @@ See [Download](./download) if you just want to download the source code.
 - [system/sepolicy](https://github.com/ProtonAOSP/android_system_sepolicy)
 - [tools/metalava](https://github.com/ProtonAOSP/android_tools_metalava)
 
-## Removals
+## Removed repositories
 
 - [external/libunwind](https://android.googlesource.com/platform/external/libunwind/)
 - [external/zlib](https://android.googlesource.com/platform/external/zlib/)
