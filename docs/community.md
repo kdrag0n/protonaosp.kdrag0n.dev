@@ -14,6 +14,13 @@ We have an active community on Telegram where you can get help, stay up to date,
 - [Pixel 5, Pixel 4a 5G](https://t.me/proton_p5)
 - [Related projects](https://t.me/proton_releases)
 
+## XDA threads
+
+- [Pixel 2](https://forum.xda-developers.com/t/rom-pixel-2-official-protonaosp-11-3-1.4188111/)
+- [Pixel 2 XL](https://forum.xda-developers.com/t/rom-pixel-2-xl-official-protonaosp-11-3-3.4188109/)
+- [Pixel 5](https://forum.xda-developers.com/t/rom-pixel-5-official-protonaosp-11.4188129/)
+- [Pixel 4a 5G](https://forum.xda-developers.com/t/rom-pixel-4a-5g-official-protonaosp-11-3-0.4203755/)
+
 ## Other support channels
 
-If you don't want to use Telegram, you can also [email us](mailto:protonaosp.support@kdrag0n.dev) for support if necessary.
+If you don't want to use Telegram or XDA, you can also [email us](mailto:protonaosp.support@kdrag0n.dev) for support.
