@@ -19,7 +19,7 @@ Follow [Google's environment setup instructions](https://source.android.com/setu
 
 You can only build on Linux. If you're on Windows or macOS, create a Linux virtual machine before proceeding.
 
-Keep in mind that Android's shell setup script only supports `bash`. `zsh`, while somewhat similar, is not compatible.
+Keep in mind that Android's shell setup script only supports `bash` and `zsh`.
 
 ## Download the source code
 
