@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Download
+# Download source code
 
 ProtonAOSP is fully open-source [on GitHub](https://github.com/ProtonAOSP). You can download the source code using Google's [`repo`](https://source.android.com/setup/develop#installing-repo) tool. First, create a new folder:
 
