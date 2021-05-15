@@ -12,8 +12,7 @@ ProtonAOSP offers many improvements on the stock Android experience:
 - Improved memory management
 - Under-the-hood tweaks
 - Privacy
-- Convenience features
-- Power user convenience
+- Convenience
 - Modern default settings
 
 It also keeps what you're used to on stock:
@@ -60,18 +59,39 @@ You can keep more apps in memory, thanks to several memory management tweaks:
 
 ## Under-the-hood tweaks
 
-Remember that annoying bug 
+- Better 5 GHz Wi-Fi signal retention
+- High-resolution recents overview
+- Fixes for some AOSP bugs
+- Latest Chromium WebView
 
-- Improved memory management: optimized pinning, ART heap compaction, more background apps
-- Under-the-hood tweaks: better 5 GHz Wi-Fi signal retention, high-resolution recents overview, fixes for AOSP bugs, latest Chromium WebView
-- Privacy: microG support, quick settings security, internet & sensor permissions, camera & microphone indicators, permission usage dashboard, minor hardening from GrapheneOS
-- Convenience features: button to clear battery stats, call recording (where legal), machine-learning back gesture
-- Power user convenience: memory usage in Settings, advanced settings expanded by default, command-line tools for developers (e.g. SSH)
-- Usable default apps: clock, calculator, contacts, messaging, phone apps from LineageOS with custom UI tweaks
-- Modern default settings: navigation, sounds, safe volume off, etc.
-- SafetyNet passing out-of-the-box without root
-- Pixel-exclusive features: Live Caption, Now Playing, Adaptive Sound, screen attention, adaptive 5G connectivity
+## Privacy
+
+- Support for microG
+- Secure quick settings
+- Internet & sensor permissions
+- Camera and microphone usage indicators
+- Permission usage dashboard
+- Minor hardening from GrapheneOS
+
+## Convenience
+
+- Clear battery usage stats on demand
+- Call recording (where legal)
+- AI-powered back gesture
+- Memory usage in Settings
+- Advanced settings expanded by default
+- Command-line tools for developers (e.g. SSH)
+
+## Pixel-exclusive features
+
+Not all Pixel-exclusive features are included due to their proprietary nature, but some of them are available:
+
+- Live Caption
+- Now Playing
+- Screen attention (Pixel 4+)
+- Adaptive 5G connectivity (Pixel 5+)
+- Adaptive Sound (Pixel 5)
 
 ## SafetyNet
 
-Unlike many custom ROMs, ProtonAOSP passes Google's SafetyNet attestation out-of-the-box if you don't root it.
+Unlike many custom ROMs, ProtonAOSP passes Google's SafetyNet attestation out-of-the-box if you don't root it. However, don't take this for granted — Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
