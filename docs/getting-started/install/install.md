@@ -36,9 +36,9 @@ We've intentionally unplugged phones in the middle of installation and flashed w
 
 #### It's a security risk
 
-In terms of security, there is little difference between flashing manually and using the web installer because you're trusting us (as the developer) regardless of how you install it. In fact, the web installer prevents you from accidentally downloading and flashing with malicious tools.
+In terms of security, there is little difference between flashing manually and using the web installer because you're trusting us (as the developer) regardless of how you install it. This would be different if we sign builds with GPG and distribute the key out-of-band, but we don't currently do either of these.
 
-If your computer is infected with malware, it can tamper with manual installation as well, so the web installer isn't at a disadvantage.
+If your computer is infected with malware, it can tamper with manual installation as well, so the web installer isn't at a disadvantage. In fact, the web installer mitigates the risk of you accidentally downloading and flashing with malicious tools.
 
 Other websites can't interfere with the web installer due to the browser sandbox and other security features in modern browsers.
 
