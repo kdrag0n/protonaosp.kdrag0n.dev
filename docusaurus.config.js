@@ -75,6 +75,13 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} <a href="https://kdrag0n.dev/">Danny Lin (kdrag0n)</a><br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/nightOwlLight'),
+      darkTheme: require('prism-react-renderer/themes/oceanicNext'),
+    },
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
   },
   presets: [
     [
