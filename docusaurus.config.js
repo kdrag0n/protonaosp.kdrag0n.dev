@@ -1,4 +1,22 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+/* Smart quotes via retext-smartypants */
+const visit = require('unist-util-visit');
+const retext = require('retext');
+const retextSmartypants = require('retext-smartypants');
+
+function remarkSmartypants(options) {
+  const processor = retext().use(retextSmartypants, options);
+
+  function transformer(tree) {
+    visit(tree, 'text', node => {
+      node.value = String(processor.processSync(node.value));
+    });
+  }
+
+  return transformer;
+}
+
 module.exports = {
   title: 'ProtonAOSP',
   tagline: 'A better operating system for your phone, based on Android',
@@ -92,6 +110,9 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          remarkPlugins: [
+            remarkSmartypants,
+          ],
         },
         blog: false,
         theme: {
