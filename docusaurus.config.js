@@ -1,19 +1,19 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ProtonAOSP',
+  tagline: 'A better operating system for your phone, based on Android',
+  url: 'https://protonaosp.kdrag0n.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ProtonAOSP',
+  projectName: 'ProtonAOSP',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ProtonAOSP',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ProtonAOSP Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -32,10 +32,9 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Info',
           items: [
             {
               label: 'Tutorial',
@@ -47,12 +46,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Telegram',
+              href: 'https://t.me/protonaosp',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Developer',
+              href: 'https://kdrag0n.dev/',
             },
             {
               label: 'Twitter',
@@ -69,7 +68,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ProtonAOSP',
             },
           ],
         },
