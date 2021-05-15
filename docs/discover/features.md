@@ -8,7 +8,6 @@ slug: /features
 ProtonAOSP offers many improvements on the stock Android experience:
 
 - Better performance and battery life
-- Easy-to-use guided web installer
 - Clean UI design
 - Improved memory management
 - Under-the-hood tweaks
@@ -21,7 +20,7 @@ It also keeps what you're used to on stock:
 - SafetyNet passing out-of-the-box without root
 - Some Pixel-exclusive features
 
-## Better performance & battery life
+## Better performance & battery life {#performance-and-battery}
 
 ProtonAOSP is more smooth (i.e. less jank) and responds faster than stock. The performance improvements can be attributed to:
 
@@ -36,11 +35,7 @@ The performance improvements have been empirically proven on a Pixel 5:
 - Up to 4x faster low-level memory management
 - Faster image loading and saving (JPEG and PNG)
 
-## Easy-to-use guided web installer
-
-ProtonAOSP is easier to install than most other custom ROMs. It has an [easy-to-use guided web installer](getting-started/install/web.mdx), so installation is just a few clicks and takes as little as 4 minutes (depending on the speed of your internet connection). You don't need to worry about using command-line interfaces, downloading tools, or bricking your device.
-
-## Clean UI design
+## Clean UI design {#ui}
 
 We pay attention to details in the user interface:
 
@@ -50,7 +45,7 @@ We pay attention to details in the user interface:
 - Fewer distractions in the system
 - Builtin wallpapers designed by Infinitum
 
-## Improved memory management
+## Improved memory management {#memory}
 
 You can keep more apps in memory, thanks to several memory management tweaks:
 
@@ -58,7 +53,7 @@ You can keep more apps in memory, thanks to several memory management tweaks:
 - ART heap compaction
 - Higher background app limit (helps devices with 8+ GB of RAM)
 
-## Under-the-hood tweaks
+## Under-the-hood tweaks {#tweaks}
 
 - Better 5 GHz Wi-Fi signal retention
 - High-resolution recents overview
@@ -87,7 +82,11 @@ You can keep more apps in memory, thanks to several memory management tweaks:
 
 Unlike many custom ROMs, ProtonAOSP passes Google's SafetyNet attestation out-of-the-box if you don't root it. However, don't take this for granted — Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
 
-## Pixel-exclusive features
+## Easy-to-use guided web installer {#web-installer}
+
+ProtonAOSP is easier to install than most other custom ROMs. It has an [easy-to-use guided web installer](getting-started/install/web.mdx), so installation is just a few clicks and takes as little as 4 minutes (depending on the speed of your internet connection). You don't need to worry about using command-line interfaces, downloading tools, or bricking your device.
+
+## Pixel-exclusive features {#pixel-exclusive}
 
 Not all Pixel-exclusive features are included due to their proprietary nature, but some of them are available:
 
@@ -97,7 +96,7 @@ Not all Pixel-exclusive features are included due to their proprietary nature, b
 - Adaptive 5G connectivity (Pixel 5+)
 - Adaptive Sound (Pixel 5)
 
-## Device-specific features
+## Device-specific features {#device-specific}
 
 Some devices have additional features.
 
