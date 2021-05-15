@@ -19,9 +19,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'discover/overview',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Overview',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -37,8 +37,8 @@ module.exports = {
           title: 'Info',
           items: [
             {
-              label: 'Tutorial',
-              to: '/intro',
+              label: 'Overview',
+              to: '/overview',
             },
           ],
         },
