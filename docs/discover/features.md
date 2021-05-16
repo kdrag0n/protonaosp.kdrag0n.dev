@@ -95,7 +95,9 @@ The out-of-the-box experience is made to fit your needs:
 
 ## SafetyNet
 
-Unlike many custom ROMs, ProtonAOSP passes Google's SafetyNet attestation out-of-the-box if you don't root it. However, don't take this for granted -- Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
+Unlike many custom ROMs, ProtonAOSP passes [Google’s SafetyNet attestation checks](https://developer.android.com/training/safetynet/attestation) out-of-the-box, so you don't need to do anything. However, don’t take it for granted -- Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
+
+See [Passing SafetyNet](../advanced/safetynet.md) for more information.
 
 ## Easy-to-use guided web installer {#web-installer}
 
