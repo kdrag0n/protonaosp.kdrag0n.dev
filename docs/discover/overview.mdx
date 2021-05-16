@@ -3,6 +3,9 @@ sidebar_position: 10
 slug: /overview
 ---
 
+import clsx from 'clsx';
+import styles from './screenshots.module.css';
+
 # Overview
 
 ProtonAOSP is a minimal Android fork (custom ROM) focused on UI/UX and performance, with a touch of privacy.
@@ -28,7 +31,14 @@ See [Features](features.md) for more information.
 
 ## Screenshots
 
-Get a taste of ProtonAOSP without having to install it:
+Get a taste of ProtonAOSP without installing it:
+
+<div className={clsx(styles.screenshotsContainer)}>
+    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-dark-notif.png" alt="Notification shade, dark" />
+    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-light-qs.png" alt="Quick settings, light" />
+    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-power-menu.png" alt="Power menu with device controls" />
+    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-recents.png" alt="Recents overview" />
+</div>
 
 See [Screenshots](screenshots.mdx) for more details.
 

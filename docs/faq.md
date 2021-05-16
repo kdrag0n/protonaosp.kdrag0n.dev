@@ -136,7 +136,7 @@ If you like the wallpapers and want to use them outside of ProtonAOSP, see [Wall
 
 ### What does ProtonAOSP look like? {#screenshots}
 
-See [Screenshots](discover/screenshots.mdx) to get a taste of ProtonAOSP without having to install it yourself.
+See [Screenshots](discover/screenshots.mdx) to get a taste of ProtonAOSP without installing it yourself.
 
 ## Privacy & security {#privacy-and-security}
 
