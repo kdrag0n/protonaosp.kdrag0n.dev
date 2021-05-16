@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 # Official device trees
 
 This is a list of device trees for officially-supported devices.
