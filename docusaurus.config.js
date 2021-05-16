@@ -108,7 +108,6 @@ module.exports = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           remarkPlugins: [
             remarkSmartypants,
