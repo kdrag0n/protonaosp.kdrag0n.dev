@@ -20,3 +20,15 @@
 .buttons {
   display: flex;
 }
+
+.heroImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

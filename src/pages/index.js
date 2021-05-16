@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero shadow--lw', styles.heroBanner)}>
       <div className="container">
         <div className="row">
-          <div className="col col--7">
+          <div className={clsx('col col--7', styles.heroTextContainer)}>
             <h1 className="hero__title">{siteConfig.title}</h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
             <div className={styles.buttons}>
@@ -25,8 +25,8 @@ function HomepageHeader() {
             </div>
           </div>
 
-          <div className="col col--5">
-            <Image img={require('../../static/img/screenshots/Screenshot_20210514-164856_Quickstep.png')} />
+          <div className={clsx('col col--5', styles.heroImageContainer)}>
+            <img className={clsx(styles.heroImage)} src="../../static/img/screenshots/hero-framed_2x.png" width="344" />
           </div>
         </div>
       </div>
