@@ -8,4 +8,4 @@ Once you have ProtonAOSP installed, you don't need to do anything else. The OS w
 
 Here are some suggestions:
 
-- Check out the wallpapers, clocks, accent colors, and more theming options in Settings → Display → Styles & wallpapers
+- Check out the wallpapers, clocks, accent colors, and more theming options in Settings -> Display -> Styles & wallpapers
