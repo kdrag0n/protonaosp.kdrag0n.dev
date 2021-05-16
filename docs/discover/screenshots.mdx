@@ -2,8 +2,8 @@
 sidebar_position: 30
 ---
 
-import clsx from 'clsx';
-import styles from './screenshots.module.css';
+import Screenshot from '../../src/components/Screenshot';
+import Screenshots from '../../src/components/Screenshots';
 
 # Screenshots
 
@@ -13,69 +13,69 @@ Here are some screenshots to get a taste of ProtonAOSP without installing it you
 
 ### System UI elements
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-dark-notif.png" alt="Notification shade, dark" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-light-qs.png" alt="Quick settings, light" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-power-menu.png" alt="Power menu with device controls" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-recents.png" alt="Recents overview" />
-</div>
+<Screenshots>
+  <Screenshot name="sys-ui-dark-notif" alt="Notification shade, dark" />
+  <Screenshot name="sys-ui-light-qs" alt="Quick settings, light" />
+  <Screenshot name="sys-ui-power-menu" alt="Power menu with device controls" />
+  <Screenshot name="sys-ui-recents" alt="Recents overview" />
+</Screenshots>
 
 ### Settings
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/sys-settings-batt-light.png" alt="Battery settings, light" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-settings-batt-dark.png" alt="Battery settings, dark" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-settings-home-light.png" alt="Settings homepage, light" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-settings-home-dark.png" alt="Settings homepage, dark" />
-</div>
+<Screenshots>
+  <Screenshot name="sys-settings-batt-light" alt="Battery settings, light" />
+  <Screenshot name="sys-settings-batt-dark" alt="Battery settings, dark" />
+  <Screenshot name="sys-settings-home-light" alt="Settings homepage, light" />
+  <Screenshot name="sys-settings-home-dark" alt="Settings homepage, dark" />
+</Screenshots>
 
 ### Privacy
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/sys-privacy-dashboard.png" alt="Privacy dashboard" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-privacy-indicators.png" alt="Privacy indicators" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-privacy-perms.png" alt="Privacy permissions" />
-</div>
+<Screenshots>
+  <Screenshot name="sys-privacy-dashboard" alt="Privacy dashboard" />
+  <Screenshot name="sys-privacy-indicators" alt="Privacy indicators" />
+  <Screenshot name="sys-privacy-perms" alt="Privacy permissions" />
+</Screenshots>
 
 ## Wallpapers
 
 ### 2D wallpapers
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-2d-overview.png" alt="Overview of wallpapers" />
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-2d-radiant-glow.png" alt="Radiant Glow wallpapers" />
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-2d-space.png" alt="Space wallpapers" />
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-2d-strange-dimension.png" alt="Strange Dimension wallpapers" />
-</div>
+<Screenshots>
+  <Screenshot name="wallpapers-2d-overview" alt="Overview of wallpapers" />
+  <Screenshot name="wallpapers-2d-radiant-glow" alt="Radiant Glow wallpapers" />
+  <Screenshot name="wallpapers-2d-space" alt="Space wallpapers" />
+  <Screenshot name="wallpapers-2d-strange-dimension" alt="Strange Dimension wallpapers" />
+</Screenshots>
 
 ### Photo wallpapers
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-photo-overview.png" alt="Overview of photo wallpapers" />
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-photo-water-stars.png" alt="Photo wallpaper: Water Stars" />
-    <img width="205" height="433" src="../../static/img/screenshots/wallpapers-photo-aurora-lights.png" alt="Photo wallpaper: Aurora Lights" />
-</div>
+<Screenshots>
+  <Screenshot name="wallpapers-photo-overview" alt="Overview of photo wallpapers" />
+  <Screenshot name="wallpapers-photo-water-stars" alt="Photo wallpaper: Water Stars" />
+  <Screenshot name="wallpapers-photo-aurora-lights" alt="Photo wallpaper: Aurora Lights" />
+</Screenshots>
 
 ## Sounds
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/sounds-ringtone.png" alt="Ringtones" />
-    <img width="205" height="433" src="../../static/img/screenshots/sounds-notif.png" alt="Notification sounds" />
-    <img width="205" height="433" src="../../static/img/screenshots/sounds-alarm.png" alt="Alarm sounds" />
-</div>
+<Screenshots>
+  <Screenshot name="sounds-ringtone" alt="Ringtones" />
+  <Screenshot name="sounds-notif" alt="Notification sounds" />
+  <Screenshot name="sounds-alarm" alt="Alarm sounds" />
+</Screenshots>
 
 ## Default apps
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/default-apps-calc.png" alt="Calculator" />
-    <img width="205" height="433" src="../../static/img/screenshots/default-apps-clock.png" alt="Clock" />
-</div>
+<Screenshots>
+  <Screenshot name="default-apps-calc" alt="Calculator" />
+  <Screenshot name="default-apps-clock" alt="Clock" />
+</Screenshots>
 
 ## Features
 
 ### Pixel-exclusive
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/feat-pixel-now-playing.png" alt="Now Playing" />
-    <img width="205" height="433" src="../../static/img/screenshots/feat-pixel-live-caption.png" alt="Live Caption" />
-</div>
+<Screenshots>
+  <Screenshot name="feat-pixel-now-playing" alt="Now Playing" />
+  <Screenshot name="feat-pixel-live-caption" alt="Live Caption" />
+</Screenshots>

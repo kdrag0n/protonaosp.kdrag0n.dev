@@ -3,8 +3,8 @@ sidebar_position: 10
 slug: /overview
 ---
 
-import clsx from 'clsx';
-import styles from './screenshots.module.css';
+import Screenshot from '../../src/components/Screenshot';
+import Screenshots from '../../src/components/Screenshots';
 
 # Overview
 
@@ -33,12 +33,12 @@ See [Features](features.md) for more information.
 
 Get a taste of ProtonAOSP without installing it:
 
-<div className={clsx(styles.screenshotsContainer)}>
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-dark-notif.png" alt="Notification shade, dark" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-light-qs.png" alt="Quick settings, light" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-power-menu.png" alt="Power menu with device controls" />
-    <img width="205" height="433" src="../../static/img/screenshots/sys-ui-recents.png" alt="Recents overview" />
-</div>
+<Screenshots>
+  <Screenshot name="sys-ui-dark-notif" alt="Notification shade, dark" />
+  <Screenshot name="sys-ui-light-qs" alt="Quick settings, light" />
+  <Screenshot name="sys-ui-power-menu" alt="Power menu with device controls" />
+  <Screenshot name="sys-ui-recents" alt="Recents overview" />
+</Screenshots>
 
 See [Screenshots](screenshots.mdx) for more details.
 
