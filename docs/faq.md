@@ -48,7 +48,7 @@ ProtonAOSP is a free and open-source project, and anyone can use it for free. We
 
 :::danger
 
-Repeatedly asking for updates ("ETAs") through the use of euphemisms in the [community](community.md), such as "Is there an update coming soon?," will not be tolerated.
+Repeatedly asking for updates ("ETAs") through the use of euphemisms in the [community](community.md), such as "Is there an update coming soon?" will not be tolerated.
 
 :::
 
@@ -58,7 +58,7 @@ No, ProtonAOSP does not have automatic over-the-air (OTA) updates, but it is pos
 
 ### Where are the old versions? {#old-versions}
 
-You can find all versions of ProtonAOSP under "Versions" in the sidebar (floating menu button on mobile).
+You can find all versions of ProtonAOSP under **Versions** in the sidebar (floating menu button on mobile).
 
 ### Can I update without wiping data? {#dirty-flash}
 
