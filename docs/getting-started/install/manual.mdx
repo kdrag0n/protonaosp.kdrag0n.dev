@@ -48,7 +48,7 @@ Next, download the [Android SDK Platform Tools](https://developer.android.com/st
 set PATH=%CD%;%PATH%
 ```
 
-If this is your first time installing from this computer, you also need to install drivers:
+If it's your first time installing from this computer, you also need to install drivers:
 
 - Open Settings → Windows Update
 - Click "Check for updates" and wait
@@ -85,7 +85,13 @@ On other distributions, download the [Android SDK Platform Tools](https://develo
 export PATH="$PWD:$PATH"
 ```
 
-If this is your first time installing from this computer, you also need to install drivers:
+If it's your first time installing from this computer, you also need to install udev rules so that the tools can talk to your phone:
+
+| Distribution   | Command |
+| -------------- | ------- |
+| Arch Linux     | `sudo pacman -S android-udev` |
+| Debian, Ubuntu | `sudo apt install android-sdk-platform-tools-common` |
+| Other          | Instructions vary |
 
 </TabItem>
 </Tabs>
