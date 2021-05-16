@@ -1,10 +1,18 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Community
 
 We have an active community on Telegram where you can get help, stay up to date, discuss anything related to ProtonAOSP, and more. Join now to get the most out of your experience!
+
+:::tip
+
+If you're looking for support, **check the [Frequently Asked Questions](faq.md) first**. You'll likely find the answer there, faster than anyone could answer it.
+
+Reading [the FAQ](faq.md) saves time for everyone.
+
+:::
 
 ## Telegram groups
 
