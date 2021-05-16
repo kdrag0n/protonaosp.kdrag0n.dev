@@ -1,5 +1,13 @@
 .screenshotsContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.screenshotsContainer img {
+  /* From Figma specs */
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+  border-radius: 15px;
+  /* Figma reports 20px, but that doesn't work in CSS */
+  margin: 15px;
 }
