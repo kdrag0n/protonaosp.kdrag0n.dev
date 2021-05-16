@@ -166,7 +166,7 @@ Rooting is not officially supported; root at your own risk. See [Rooting](advanc
 
 We're glad you like it! See [Donate](donate.md) for ways to support us financially.
 
-If you can't donate, that's okay! You can still help us by spreading the word about ProtonAOSP and [joining the community](community.md).
+If you can't donate, that's okay! You can still help us by spreading the word about ProtonAOSP and [joining the community](community.md). Sharing positivity goes a long way.
 
 ### Where's the proof for your claims? {#proof-claims}
 
