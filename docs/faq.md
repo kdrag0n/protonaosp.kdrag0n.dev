@@ -152,7 +152,7 @@ ProtonAOSP is **not** a security-focused ROM. It has some [minor security featur
 
 ### Is the web installer bad for security? {#web-installer-security}
 
-No, the web installer is just as safe and secure as manual installation in most cases. See [Common misconceptions](getting-started/install/install.md#common-misconceptions) for more information.
+No, the web installer is just as safe and secure as manual installation in most cases. See [Common misconceptions](getting-started/install/install.md#web-installer-misconceptions) for more information.
 
 ## Miscellaneous {#misc}
 
