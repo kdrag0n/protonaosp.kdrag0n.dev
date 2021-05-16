@@ -11,4 +11,11 @@
   /* Figma reports 20px, but that doesn't work in CSS */
   margin: 15px;
 }
-  
+
+.screenshotContainer {
+  text-align: center;
+}
+
+.screenshotCaption {
+  color: var(--ifm-color-content-secondary);
+}
