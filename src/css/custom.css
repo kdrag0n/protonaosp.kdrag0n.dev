@@ -26,6 +26,8 @@ html[data-theme="dark"] {
   --ifm-color-primary-light: #7ab8ff;
   --ifm-color-primary-lighter: #8bc1ff;
   --ifm-color-primary-lightest: #bfddff;
+
+  --ifm-color-content-secondary: #939393;
 }
 
 .docusaurus-highlight-code-line {
