@@ -21,8 +21,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_design_components.svg').default,
     description: (
       <>
-        ProtonAOSP's typography, attention to details, and color schemes picked
-        with state-of-the-art color science make for a clean and elegant UI.
+        ProtonAOSP's typography, attention to details, and colors picked with
+        state-of-the-art color science make for a clean and elegant UI.
         <br />
         <Link to="/features#ui">Learn more</Link>
       </>
