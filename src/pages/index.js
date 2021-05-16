@@ -25,7 +25,7 @@ function HomepageHeader() {
           </div>
 
           <div className={clsx('col col--5', styles.heroImageContainer)}>
-            <img width="344" className={clsx(styles.heroImage)} src="../../static/img/screenshots/hero-framed_2x.png" />
+            <img width="344" height="677.5" className={clsx(styles.heroImage)} src="../../static/img/screenshots/hero-framed_2x.png" />
           </div>
         </div>
       </div>
