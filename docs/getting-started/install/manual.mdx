@@ -11,14 +11,26 @@ import { detectOs } from "../../../src/utils";
 
 This is a guide for installing ProtonAOSP manually, using the command line. The [web installer](web.mdx) is recommended if you don't have a specific need for this. Check the [list of common misconceptions](install.md#web-installer-misconceptions) if you're not sure.
 
-## Download a build
+You can only use a Windows, macOS, or Linux computer for this manual installation; use the [web installer](web.mdx) if you want to install from a Chromebook or another phone.
 
-[Download](../download.md) the build you want to install. You can choose either factory images or full OTA packages -- both are covered below.
+## Download a build {#download}
 
-## Open a terminal
+[Download](../download.md) the build you want to install. You can choose either factory images or full OTA packages -- both are covered below. We recommend factory images, unless you're already familiar with flashing full OTAs and would rather stick with them.
+
+## Prepare your phone {#prepare-phone}
+
+Put your device into bootloader mode by restarting it and holding the **volume down** button until you see a <span class="text--danger">red</span> warning sign or <span class="text--success">green</span> Android robot.
+
+Once your device is in bootloader mode, plug it into the computer or device you’re installing from. Make sure you use a **high-quality** USB cable, as many cables will cause issues. Avoid USB hubs if possible.
+
+Your USB cable needs to be able to copy files. Charging-only cables won’t work.
+
+If you're switching from the stock OS or another ROM, make sure all your important data is backed up. You'll need to wipe all your data in order to use ProtonAOSP.
+
+## Prepare your system {#prepare-system}
 
 <Tabs
-  groupId="os-major3"
+  groupId="os"
   defaultValue={detectOs()}
   values={[
     {label: "Windows", value: "windows"},
@@ -28,79 +40,146 @@ This is a guide for installing ProtonAOSP manually, using the command line. The 
 }>
 <TabItem value="windows">
 
-  ```bash
-  sudo pacman -S android-tools
-  ```
+First, open the "Command Prompt" app from the Start menu.
+
+Next, download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them. Navigate to the extracted `platform-tools` folder in the terminal by typing `cd `&nbsp;(with the space at the end) and dragging the folder into Command Prompt. Then run the following command:
+
+```bat
+set PATH=%CD%;%PATH%
+```
+
+If this is your first time installing from this computer, you also need to install drivers:
+
+- Open Settings → Windows Update
+- Click "Check for updates" and wait
+- Click "View optional updates"
+- Select the "Android Bootloader Interface" update (ignore the brand name; it doesn't matter)
+- Click "Download and install" and wait for it to finish
+- Unplug your device and plug it back in
 
 </TabItem>
 <TabItem value="mac">
 
-  Download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them.
+First, open the "Terminal" app from Applications -> Utilities.
+
+Next, download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them. Navigate to the extracted `platform-tools` folder in the terminal by typing `cd `&nbsp;(with the space at the end) and dragging the folder into Terminal. Then run the following command:
+
+```bash
+export PATH="$PWD:$PATH"
+```
 
 </TabItem>
 <TabItem value="linux">
 
-  Download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them.
+First, open your terminal app of choice, such as Gnome Terminal, Konsole, or XTerm.
+
+Next, install the Android platform tools. If you're using Arch Linux:
+
+```bash
+sudo pacman -S android-tools
+```
+
+On other distributions, download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them. Navigate to the extracted `platform-tools` folder in the terminal by typing `cd `&nbsp;(with the space at the end) and dragging the folder into your terminal. Then run the following command:
+
+```bash
+export PATH="$PWD:$PATH"
+```
+
+If this is your first time installing from this computer, you also need to install drivers:
 
 </TabItem>
 </Tabs>
 
-## Prepare your system
+## Wipe data
 
-### Install tools
+If you're switching from the stock OS or another ROM, you need to **wipe all data before installing ProtonAOSP**:
 
-<Tabs
-  groupId="linux-distros-arch"
-  defaultValue="other"
-  values={[
-    {label: "Arch Linux", value: "arch"},
-    {label: "Other", value: "other"},
-  ]
-}>
-<TabItem value="arch">
+```bash
+fastboot -w
+```
 
-  ```bash
-  sudo pacman -S android-tools
-  ```
+Otherwise, ProtonAOSP won't boot and your phone will get stuck on the boot animation after the installation.
 
-</TabItem>
-<TabItem value="other">
+:::danger
 
-  Download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them.
+All data on your phone will be lost, so make sure your important files are backed up before doing this.
 
-</TabItem>
-</Tabs>
-
-### Install drivers
-
-<Tabs
-  groupId="os-windows"
-  defaultValue="win"
-  values={[
-    {label: 'Windows', value: 'win'},
-    {label: 'Other', value: 'mac'},
-  ]
-}>
-<TabItem value="win">Use Ctrl + C to copy.</TabItem>
-<TabItem value="mac">Use Command + C to copy.</TabItem>
-</Tabs>
-
-### Configure permissions
-
-<Tabs
-  groupId="operating-systems"
-  defaultValue="win"
-  values={[
-    {label: 'Windows', value: 'win'},
-    {label: 'macOS', value: 'mac'},
-  ]
-}>
-<TabItem value="win">Use Ctrl + V to paste.</TabItem>
-<TabItem value="mac">Use Command + V to paste.</TabItem>
-</Tabs>
+:::
 
 ## Install the build
 
 ### Factory images
 
+#### Extract factory images
+
+Extract the downloaded factory images package (e.g. `proton-aosp_redfin-factory_11.5.0.zip`). Navigate to the new folder (e.g. `redfin-rq2a.210505.003`) by typing `cd `&nbsp;(with the space at the end) and dragging the folder into your terminal.
+
+#### Flash factory images
+
+Run the following command to flash the factory images:
+
+<Tabs
+  groupId="os"
+  defaultValue={detectOs()}
+  values={[
+    {label: "Windows", value: "windows"},
+    {label: "macOS", value: "mac"},
+    {label: "Linux", value: "linux"},
+  ]
+}>
+<TabItem value="windows">
+
+```batch
+flash-all.bat
+```
+
+</TabItem>
+<TabItem value="mac">
+
+```bash
+./flash-all.sh
+```
+
+</TabItem>
+<TabItem value="linux">
+
+```bash
+./flash-all.sh
+```
+
+</TabItem>
+</Tabs>
+
+**Don’t touch, unplug, or press any buttons** on your device during the install. Your phone will restart several times, but **don’t touch it.** It will automatically boot into ProtonAOSP once the installation process completes.
+
 ### Full OTA
+
+#### Download a custom recovery
+
+Full OTAs can only be installed in a custom recovery, so you need to download one for your device first. We recommend [TWRP](https://twrp.me) for supported devices, such as the Pixel 2 series.
+
+#### Boot the custom recovery
+
+Run the following command to boot the custom recovery:
+
+```bash
+fastboot boot twrp-3.5.2_9-0-taimen.img
+```
+
+#### Sideload the package
+
+After booting the custom recovery, you can install the full OTA package by sideloading it from your computer:
+
+```bash
+adb sideload proton-aosp_taimen-ota_11.5.0.zip
+```
+
+#### Restart your phone
+
+Watch the phone for installation progress. Once it's finished, restart your phone using the buttons in the custom recovery.
+
+## Finish
+
+You can now delete the factory images and/or full OTA packages, but don't delete the platform tools -- you'll need them for updating in the future.
+
+See [First Steps](getting-started/first-steps.md) for what to do next.

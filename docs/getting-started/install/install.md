@@ -10,7 +10,7 @@ There are multiple ways to install ProtonAOSP on supported devices. We recommend
 
 ## [Web installer (recommended)](web.mdx) {#web}
 
-This is the recommended method. It's fast, easy, and won't brick your phone. [Install now](web.mdx)
+This is the recommended method. It's fast, easy, and won't brick your phone. You can install from a computer (including Chromebooks) or another phone. [Install now](web.mdx)
 
 ### Common misconceptions {#web-installer-misconceptions}
 
@@ -44,4 +44,4 @@ Other websites can't interfere with the web installer due to the browser sandbox
 
 ## [Manual installation](manual.mdx) {#manual}
 
-You can also install ProtonAOSP manually if you have special requirements or prefer using the command line. This could brick your phone if you mess up, so be careful! [Install manually](manual.mdx)
+You can also install ProtonAOSP manually from a computer if you have special requirements or prefer using the command line. This could brick your phone if you mess up, so be careful! [Install manually](manual.mdx)
