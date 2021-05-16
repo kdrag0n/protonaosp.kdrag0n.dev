@@ -154,6 +154,12 @@ ProtonAOSP is **not** a security-focused ROM. It has some [minor security featur
 
 No, the web installer is just as safe and secure as manual installation in most cases. See [Common misconceptions](getting-started/install/install.md#web-installer-misconceptions) for more information.
 
+## Advanced
+
+### How do I root ProtonAOSP? {#rooting}
+
+Rooting is not officially supported; root at your own risk. See [Rooting](advanced/rooting.md) for more information.
+
 ## Miscellaneous {#misc}
 
 ### How can I support the project? {#support}
