@@ -6,6 +6,8 @@ sidebar_position: 3
 
 Once you have ProtonAOSP installed, you don't need to do anything else. The OS works entirely by itself. Enjoy!
 
+## Explore
+
 If you want to explore all the features, here are some suggestions:
 
 - Check out the wallpapers, clocks, accent colors, and more theming options in Settings -> Display -> Styles & wallpapers
@@ -14,3 +16,7 @@ If you want to explore all the features, here are some suggestions:
 - Try all the ringtone, alarm, or notification sounds included out-of-the-box
 
 Most of ProtonAOSP's improvements work seamlessly in the background, bringing. That means you don't need to change anything -- just flash and forget. See [Features](../discover/features.md) for a list of differences to look for.
+
+## Advanced users
+
+If you are an advanced user, you may be interested in [rooting](../advanced/rooting.md).
