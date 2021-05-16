@@ -19,7 +19,7 @@ For Pixel devices, XL models are different from their smaller counterparts. Flas
 
 ## Factory images (recommended)
 
-Factory images can be flashed the same way you would flash stock Pixel factory images from Google. We recommend using them instead of full OTAs because they contain firmware and other parts for a more complete install, especially if you're coming from an old major version of Android. Check the [manual installation guide](install/manual.md) for instructions.
+Factory images can be flashed the same way you would flash stock Pixel factory images from Google. We recommend using them instead of full OTAs because they contain firmware and other parts for a more complete install, especially if you're coming from an old major version of Android. Check the [manual installation guide](install/manual.mdx) for instructions.
 
 - Pixel 5 (redfin): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.0/proton-aosp_redfin-factory_11.5.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.0/proton-aosp_redfin-factory_11.5.0-gapps.zip)
 - Pixel 4a 5G (bramble): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.0/proton-aosp_bramble-factory_11.5.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.0/proton-aosp_bramble-factory_11.5.0-gapps.zip)

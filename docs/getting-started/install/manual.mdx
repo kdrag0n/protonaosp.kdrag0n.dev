@@ -1,0 +1,106 @@
+---
+sidebar_position: 3
+slug: /install/manual
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import { detectOs } from "../../../src/utils";
+
+# Manual install
+
+This is a guide for installing ProtonAOSP manually, using the command line. The [web installer](web.mdx) is recommended if you don't have a specific need for this. Check the [list of common misconceptions](install.md#web-installer-misconceptions) if you're not sure.
+
+## Download a build
+
+[Download](../download.md) the build you want to install. You can choose either factory images or full OTA packages -- both are covered below.
+
+## Open a terminal
+
+<Tabs
+  groupId="os-major3"
+  defaultValue={detectOs()}
+  values={[
+    {label: "Windows", value: "windows"},
+    {label: "macOS", value: "mac"},
+    {label: "Linux", value: "linux"},
+  ]
+}>
+<TabItem value="windows">
+
+  ```bash
+  sudo pacman -S android-tools
+  ```
+
+</TabItem>
+<TabItem value="mac">
+
+  Download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them.
+
+</TabItem>
+<TabItem value="linux">
+
+  Download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them.
+
+</TabItem>
+</Tabs>
+
+## Prepare your system
+
+### Install tools
+
+<Tabs
+  groupId="linux-distros-arch"
+  defaultValue="other"
+  values={[
+    {label: "Arch Linux", value: "arch"},
+    {label: "Other", value: "other"},
+  ]
+}>
+<TabItem value="arch">
+
+  ```bash
+  sudo pacman -S android-tools
+  ```
+
+</TabItem>
+<TabItem value="other">
+
+  Download the [Android SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools) and extract them.
+
+</TabItem>
+</Tabs>
+
+### Install drivers
+
+<Tabs
+  groupId="os-windows"
+  defaultValue="win"
+  values={[
+    {label: 'Windows', value: 'win'},
+    {label: 'Other', value: 'mac'},
+  ]
+}>
+<TabItem value="win">Use Ctrl + C to copy.</TabItem>
+<TabItem value="mac">Use Command + C to copy.</TabItem>
+</Tabs>
+
+### Configure permissions
+
+<Tabs
+  groupId="operating-systems"
+  defaultValue="win"
+  values={[
+    {label: 'Windows', value: 'win'},
+    {label: 'macOS', value: 'mac'},
+  ]
+}>
+<TabItem value="win">Use Ctrl + V to paste.</TabItem>
+<TabItem value="mac">Use Command + V to paste.</TabItem>
+</Tabs>
+
+## Install the build
+
+### Factory images
+
+### Full OTA

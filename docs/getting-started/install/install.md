@@ -42,6 +42,6 @@ If your computer is infected with malware, it can tamper with manual installatio
 
 Other websites can't interfere with the web installer due to the browser sandbox and other security features in modern browsers.
 
-## [Manual installation](manual.md) {#manual}
+## [Manual installation](manual.mdx) {#manual}
 
-You can also install ProtonAOSP manually if you have special requirements or prefer using the command line. This could brick your phone if you mess up, so be careful! [Install manually](manual.md)
+You can also install ProtonAOSP manually if you have special requirements or prefer using the command line. This could brick your phone if you mess up, so be careful! [Install manually](manual.mdx)
