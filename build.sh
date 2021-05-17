@@ -20,4 +20,7 @@ popd
 # Combine built sites
 mv android-webinstall/dist build/install/_web
 
+# Relocate release index
+mv build/install/_web/releases build/
+
 # Deploy build/
