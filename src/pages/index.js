@@ -45,7 +45,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
       description="ProtonAOSP is a minimal Android fork (custom ROM) focused on UI/UX and performance, with a touch of privacy.">
       <HomepageHeader />
       <main>
