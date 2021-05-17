@@ -27,6 +27,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'ProtonAOSP',
   projectName: 'ProtonAOSP',
+  titleDelimiter: '·',
   themeConfig: {
     navbar: {
       title: 'ProtonAOSP',
