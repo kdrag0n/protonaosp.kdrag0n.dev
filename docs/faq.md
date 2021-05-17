@@ -24,7 +24,7 @@ It is also **very unlikely** that we will add customization features, as this is
 
 ### Why is this Pixel feature missing? {#missing-pixel-feature}
 
-Most Pixel-exclusive features are proprietary and thus cannot be added without tedius reverse engineering that takes away from development time. This includes:
+Most Pixel-exclusive features are proprietary and thus cannot be added without tedious reverse engineering that takes away from development time. This includes:
 
 - New Google Assistant
 - Weather on the lock screen or ambient display
@@ -126,7 +126,7 @@ Unlike Google's stock OS, the dark theme is dark gray instead of pure ("AMOLED")
 - On OLED displays, the overly high contrast of white-on-black text is harsh on the eyes for some people.
 - On AMOLED displays, black smearing is a major problem at low brightness.
 
-ProtonAOSP uses a dark gray theme based on the [Primer Design System](https://primer.sryle/) to avoid these problems. However, we recognize that some people prefer black themes despite their shortcomings, so **a pure black theme may become available in the future**.
+ProtonAOSP uses a dark gray theme based on the [Primer Design System](https://primer.style/) to avoid these problems. However, we recognize that some people prefer black themes despite their shortcomings, so **a pure black theme may become available in the future**.
 
 If you want a black theme purely to save power, take a look at [XDA's analysis](https://www.xda-developers.com/amoled-black-vs-gray-dark-mode/). Black saves a marginal amount of power compared to dark gray themes according to the tests — not enough to make a practical difference.
 
