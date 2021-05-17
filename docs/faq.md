@@ -46,7 +46,7 @@ See [Features](discover/features.md) for an overview of ProtonAOSP's features.
 
 ProtonAOSP is a free and open-source project, and anyone can use it for free. We are not obligated to release updates whenever you want them, and you are not entitled to them. **Be patient; updates will be released when they are ready.**
 
-:::danger
+:::danger Asking for ETAs
 
 Repeatedly asking for updates ("ETAs") through the use of euphemisms in the [community](community.md), such as "Is there an update coming soon?" will not be tolerated.
 
