@@ -1,6 +1,6 @@
 .installerFrame {
   width: 100%;
-  height: calc(100vh - var(--ifm-navbar-height));
+  height: 100vh;
   border: none;
   border-radius: 4px;
 }
