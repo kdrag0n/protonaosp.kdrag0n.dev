@@ -18,6 +18,6 @@ yarn build
 popd
 
 # Combine built sites
-mv android-webinstall/dist build/install/
+mv android-webinstall/dist build/install/_web
 
 # Deploy build/
