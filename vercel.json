@@ -1,0 +1,50 @@
+{
+    "trailingSlash": false,
+    "headers": [
+        {
+            "source": "/(.*).js",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2629744"
+                }
+            ]
+        },
+        {
+            "source": "/(.*).css",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2629744"
+                }
+            ]
+        },
+        {
+            "source": "/(.*).woff(2?)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2629744"
+                }
+            ]
+        },
+        {
+            "source": "/(.*).png",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=86400"
+                }
+            ]
+        },
+        {
+            "source": "/favicon.ico",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=1209600"
+                }
+            ]
+        }
+    ]
+}
