@@ -161,4 +161,12 @@ module.exports = {
       },
     ],
   ],
+  scripts: process.env.SA_DOMAIN !== undefined ? [
+    {
+      src: `https://${process.env.SA_DOMAIN}/latest.js`,
+      async: true,
+      defer: true,
+      'data-skip-dnt': 'true',
+    }
+  ] : undefined,
 };
