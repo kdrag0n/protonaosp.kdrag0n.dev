@@ -23,4 +23,7 @@ mv android-webinstall/dist build/install/_web
 # Relocate release index
 mv build/install/_web/releases build/
 
+# Correct paths for trailingSlash=false
+cp -r build/install/_web/js build/install/
+
 # Deploy build/
