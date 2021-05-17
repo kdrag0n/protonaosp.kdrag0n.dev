@@ -1,7 +1,7 @@
 ---
-sidebar_position: 40
+sidebar_position: 30
 ---
 
-# Wallpapers
+# SafetyNet
 
 This page is a work-in-progress. Please check back later.

@@ -1,7 +1,7 @@
 ---
-sidebar_position: 40
+sidebar_position: 50
 ---
 
-# Wallpapers
+# Theme
 
 This page is a work-in-progress. Please check back later.
