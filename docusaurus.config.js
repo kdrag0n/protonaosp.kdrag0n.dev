@@ -34,7 +34,7 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: 'ProtonAOSP Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo-f5dcbe6746dca65150c4e76ee6c8fb9f6492ce98.svg',
       },
       items: [
         {
