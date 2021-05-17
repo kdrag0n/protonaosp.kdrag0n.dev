@@ -31,6 +31,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'ProtonAOSP',
+      hideOnScroll: true,
       logo: {
         alt: 'ProtonAOSP Logo',
         src: 'img/logo.svg',
