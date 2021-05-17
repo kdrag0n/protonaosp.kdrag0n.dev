@@ -6,13 +6,13 @@ export default function Screenshot({name, alt, width, height, showCaption, large
   return (
     <div className={clsx(styles.screenshotContainer)}>
       <picture>
-        <source type="image/webp" srcSet={`../../static/img/screenshots/${name}.webp`} />
-        <source type="image/png" srcSet={`../../static/img/screenshots/${name}.png`} />
+        <source type="image/webp" srcSet={require(`@site/static/img/screenshots/${name}.webp`).default} />
+        <source type="image/png" srcSet={require(`@site/static/img/screenshots/${name}.png`).default} />
         <img
           className={clsx(styles.screenshot, large ? styles.screenshotLarge : "")}
           width={width}
           height={height}
-          src={`../../static/img/screenshots/${name}.png`} alt={alt} />
+          src={require(`@site/static/img/screenshots/${name}.png`).default} alt={alt} />
       </picture>
 
       {showCaption &&
