@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# First Steps
+# First steps
 
 Once you have ProtonAOSP installed, you don't need to do anything else. The OS works entirely by itself. Enjoy!
 
