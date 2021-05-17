@@ -73,17 +73,29 @@ module.exports = {
     footer: {
       links: [
         {
-          title: 'Info',
+          title: 'Discover',
           items: [
             {
               label: 'Overview',
               to: '/overview',
+            },
+            {
+              label: 'Features',
+              to: '/features',
+            },
+            {
+              label: 'Screenshots',
+              to: '/screenshots',
             },
           ],
         },
         {
           title: 'Community',
           items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/ProtonAOSP',
+            },
             {
               label: 'Telegram',
               href: 'https://t.me/protonaosp',
@@ -92,22 +104,26 @@ module.exports = {
               label: 'Developer',
               href: 'https://kdrag0n.dev/',
             },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
           ],
         },
         {
-          title: 'More',
+          title: 'Developers',
           items: [
             {
-              label: 'Blog',
-              to: '/overview',
+              label: 'Source code',
+              to: '/developers/download',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/ProtonAOSP',
+              label: 'Build',
+              to: '/developers/build',
+            },
+            {
+              label: 'Contribute',
+              to: '/developers/contribute',
+            },
+            {
+              label: 'Technical details',
+              to: '/developers/details/blur',
             },
           ],
         },
