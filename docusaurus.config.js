@@ -58,8 +58,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'developers/build',
-          label: 'Developers',
+          to: 'community',
+          label: 'Community',
           position: 'left',
         },
 
@@ -103,6 +103,10 @@ module.exports = {
             {
               label: 'Developer',
               href: 'https://kdrag0n.dev/',
+            },
+            {
+              label: 'More',
+              to: '/community',
             },
           ],
         },
