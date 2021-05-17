@@ -38,15 +38,34 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'discover/overview',
-          position: 'left',
+          to: 'overview',
           label: 'Overview',
+          position: 'left',
         },
-        {to: '/overview', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'features',
+          label: 'Features',
+          position: 'left',
+        },
+        {
+          to: 'screenshots',
+          label: 'Screenshots',
+          position: 'left',
+        },
+        {
+          to: 'faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          to: 'developers/build',
+          label: 'Developers',
+          position: 'left',
+        },
+
+        {
+          to: 'install/web',
+          label: 'Install',
           position: 'right',
         },
       ],
