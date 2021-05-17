@@ -35,6 +35,8 @@ The performance improvements have been empirically proven on a Pixel 5:
 - Up to 4x faster low-level memory management
 - Faster image loading and saving (JPEG and PNG)
 
+See [Performance](../developers/details/performance.md) for technical details.
+
 ## Clean UI design {#ui}
 
 We pay attention to details in the user interface:
@@ -44,6 +46,8 @@ We pay attention to details in the user interface:
 - Frosted glass blur with state-of-the-art rendering techniques
 - Fewer distractions in the system
 - Builtin wallpapers designed by Infinitum
+
+See [Theme](../developers/details/theme.md) and [Blur](../developers/details/blur.md) for technical details.
 
 ## Improved memory management {#memory}
 
@@ -97,7 +101,7 @@ The out-of-the-box experience is made to fit your needs:
 
 Unlike many custom ROMs, ProtonAOSP passes [Google’s SafetyNet attestation checks](https://developer.android.com/training/safetynet/attestation) out-of-the-box, so you don't need to do anything. However, don’t take it for granted -- Google could break it at any time. Unofficial operating systems rely on a variety of workarounds in order to pass SafetyNet, so it should not be expected to work forever.
 
-See [Passing SafetyNet](../advanced/safetynet.md) for more information.
+See [Passing SafetyNet](../advanced/safetynet.md) for more information, and [SafetyNet](../developers/details/safetynet.md) for technical details.
 
 ## Easy-to-use guided web installer {#web-installer}
 
