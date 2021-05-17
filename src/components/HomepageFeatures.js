@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Fast and Smooth',
-    Svg: require('../../static/img/undraw_fast_loading.svg').default,
+    Svg: require('@site/static/img/undraw_fast_loading.svg').default,
     description: (
       <>
         With deep, empirically-proven optimizations throughout the system,
@@ -18,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Clean UI design',
-    Svg: require('../../static/img/undraw_design_components.svg').default,
+    Svg: require('@site/static/img/undraw_design_components.svg').default,
     description: (
       <>
         ProtonAOSP's typography, attention to details, and colors picked with
@@ -30,7 +30,7 @@ const FeatureList = [
   },
   {
     title: 'Privacy',
-    Svg: require('../../static/img/undraw_private_data.svg').default,
+    Svg: require('@site/static/img/undraw_private_data.svg').default,
     description: (
       <>
         ProtonAOSP helps keep your data private with camera and microphone
