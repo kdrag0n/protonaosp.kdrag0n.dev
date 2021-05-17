@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="ProtonAOSP is a minimal Android fork (custom ROM) focused on UI/UX and performance, with a touch of privacy.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
