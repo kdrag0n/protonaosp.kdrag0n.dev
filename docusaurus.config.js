@@ -141,6 +141,9 @@ module.exports = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    goatcounter: process.env.GOATCOUNTER_CODE !== undefined ? {
+      code: process.env.GOATCOUNTER_CODE,
+    } : undefined,
   },
   presets: [
     [
@@ -168,5 +171,8 @@ module.exports = {
       defer: true,
       'data-skip-dnt': 'true',
     }
+  ] : undefined,
+  plugins: process.env.GOATCOUNTER_CODE !== undefined ? [
+    'docusaurus-plugin-goatcounter',
   ] : undefined,
 };
