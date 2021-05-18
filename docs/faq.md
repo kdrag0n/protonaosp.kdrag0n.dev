@@ -75,7 +75,7 @@ No. From the answer above:
 
 Yes, Wi-Fi hotspot and USB tethering both work on officially-supported devices. This includes hardware acceleration (via Qualcomm's IPA processor), just like Google's stock OS.
 
-### Is battery life good on ProtonAOSP? {#how-is-battery}
+### Is battery life good on ProtonAOSP? {#battery-life}
 
 Battery life is a highly personal thing that is different for each individual user, so we can't predict how good the battery life will be for you or how many hours of screen-on time you will get. We don't make tweaks specifically for battery life, but for most users, battery life is considerably better than Google's stock OS because of the reduced bloat and background services.
 
