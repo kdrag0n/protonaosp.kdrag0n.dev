@@ -24,13 +24,15 @@ It is also **very unlikely** that we will add customization features, as this is
 
 ### Why is this Pixel feature missing? {#missing-pixel-feature}
 
-Most Pixel-exclusive features are proprietary and thus cannot be added without tedious reverse engineering that takes away from development time. This includes:
+Most Pixel-exclusive features are proprietary and thus cannot be added without tedious reverse engineering that takes away from development time. From the answer above:
 
-- New Google Assistant
-- Weather on the lock screen or ambient display
-- Now Playing song on the lock screen or ambient display
-- "Rules" automation in Settings
-- Pixel Launcher
+> This includes:
+>
+> - New Google Assistant
+> - Weather on the lock screen or ambient display
+> - Now Playing song on the lock screen or ambient display
+> - "Rules" automation in Settings
+> - Pixel Launcher
 
 ### Where are the customization settings? {#customization-settings}
 
@@ -39,6 +41,43 @@ ProtonAOSP is **not** a customization-focused ROM. As such, it is unlikely that 
 ### What features does ProtonAOSP have? {#what-features}
 
 See [Features](discover/features.md) for an overview of ProtonAOSP's features.
+
+### What Google apps are included? {#what-gapps}
+
+Official "gapps" builds include a bare minimum set of apps for full functionality, and nothing more. This includes:
+
+| App | Reason |
+| --- | ------ |
+| Google Play Services | Required for Google and third-party apps |
+| Google Setup Wizard | Required for Google Play Services to work properly |
+| Google Search | Required for Google Assistant hotword detection ("Ok Google" trigger) to work properly |
+| Google Text-To-Speech | AOSP is missing a TTS implementation |
+| Google Photos | AOSP Gallery is lacking in maintenance and functionality |
+| Android Auto | Only works as a system app |
+| Digital Wellbeing | Only works as a system app |
+| Play Store | Allows downloading apps from Google Play |
+
+We only include this set of apps and **will not add more** for size and privacy reasons. You can install more Google apps from the Play Store.
+
+Call screening will not work in Google Dialer if you install it from the Play Store, but unfortunately, it won't be added to the system for size and privacy reasons. You can try [rooting](advanced/rooting.md) and "systemizing" the app if you still want the feature.
+
+### Can you add more Google apps? {#more-gapps}
+
+No. From the answer above:
+
+> We only include this set of apps and **will not add more** for size and privacy reasons. You can install more Google apps from the Play Store.
+>
+> Call screening will not work in Google Dialer if you install it from the Play Store, but unfortunately, it won't be added to the system for size and privacy reasons. You can try [rooting](advanced/rooting.md) and "systemizing" the app if you still want the feature.
+
+
+
+### Are hotspot and tethering supported? {#hotspot-support}
+
+Yes, Wi-Fi hotspot and USB tethering both work on officially-supported devices. This includes hardware acceleration (via Qualcomm's IPA processor), just like Google's stock OS.
+
+### Is battery life good on ProtonAOSP? {#how-is-battery}
+
+Battery life is a highly personal thing that is different for each individual user, so we can't predict how good the battery life will be for you or how many hours of screen-on time you will get. We don't make tweaks specifically for battery life, but for most users, battery life is considerably better than Google's stock OS because of the reduced bloat and background services.
 
 ## Updates
 
@@ -67,6 +106,10 @@ Yes, you can update to a newer version of ProtonAOSP while keeping all your data
 ### Can I downgrade to an older version? {#downgrade}
 
 We don't recommend using old versions of ProtonAOSP, but you can safely downgrade to an older version without losing data.
+
+### Will I lose root after updating? {#update-lose-root}
+
+Yes, root will be lost after updating because the entire system gets replaced during the update process. You will need to [root again](advanced/rooting.md) after each update.
 
 ## Problems
 
@@ -111,6 +154,14 @@ On Pixel devices, Now Playing will show the current song as a minimized notifica
 This is caused by the frosted glass blur effect that we use in the notification shade and quick settings, which may be laggy in certain heavy scenarios on some devices. You can choose to disable blur in Settings -> Developer options -> Enable blurs.
 
 Our custom blur implementation is already [considerably faster](developers/details/blur.md) than Google's, but there is still more room for improvement. These improvements will most likely be added in future versions of ProtonAOSP.
+
+### I can't change the USB mode {#usb-mode}
+
+The persistent USB notifcation was intentionally removed because it adds to notification clutter and is not consistent with other settings. Instead, you can change the USB mode (MTP file transfer, tethering, etc.) in Settings -> Connected devices -> USB. This setting has not been moved or changed from stock.
+
+### Google Pay isn't in the power menu {#quick-wallet-broken}
+
+Google Pay integration in the power menu is a part of Google Play Services. Unfortunately, it tends to be unreliable to register on new installs, even on Google's stock OS. Your best bet is to wait a few days for Google Play Services to register the integration.
 
 ### I found a bug {#bug}
 
