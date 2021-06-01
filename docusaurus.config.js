@@ -87,6 +87,10 @@ module.exports = {
               label: 'Screenshots',
               to: '/screenshots',
             },
+            {
+              label: 'FAQ',
+              to: '/faq',
+            },
           ],
         },
         {
@@ -128,6 +132,23 @@ module.exports = {
             {
               label: 'Technical details',
               to: '/developers/details/blur',
+            },
+          ],
+        },
+        {
+          title: 'Resources',
+          items: [
+            {
+              label: 'Donate',
+              to: '/donate',
+            },
+            {
+              label: 'Terms of service',
+              href: 'https://kdrag0n.dev/terms-of-service',
+            },
+            {
+              label: 'Privacy policy',
+              href: 'https://kdrag0n.dev/privacy-policy',
             },
           ],
         },
