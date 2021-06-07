@@ -5,7 +5,7 @@ slug: /root
 
 # Rooting
 
-ProtonAOSP is designed for a good user experience out-of-the-box, without requiring modifications or any other changes. We do not officially support rooting or any modifications to the system because they are prone to breakage and tend to cause issues. Rooting, in particular, weakens the security of your device and is often the source of many issues. However, we recognize that many of our users will root their devices regardless of this, so we've put together a guide for rooting with [Magisk](https://github.com/topjohnwu/Magisk).
+ProtonAOSP is designed for a good user experience out-of-the-box, without requiring modifications or any other changes. We do not officially support rooting or any other modifications to the system because they are prone to breakage and tend to cause issues. Rooting, in particular, weakens the security of your device and is often the source of many issues. However, we recognize that many of our users will root their devices regardless of this, so we've written this guide for rooting with [Magisk](https://github.com/topjohnwu/Magisk).
 
 If you have trouble rooting, you can try asking the [community](../community.md), but no support is guaranteed.
 
