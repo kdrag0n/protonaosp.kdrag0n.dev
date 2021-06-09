@@ -155,7 +155,7 @@ This is caused by the frosted glass blur effect that we use in the notification 
 
 Our custom blur implementation is already [considerably faster](developers/details/blur.md) than Google's, but there is still more room for improvement. These improvements will most likely be added in future versions of ProtonAOSP.
 
-### I can't change the USB mode {#usb-mode}
+### USB file transfer doesn't work {#usb-file-transfer}
 
 The persistent USB notifcation was intentionally removed because it adds to notification clutter and is not consistent with other settings. Instead, you can change the USB mode (MTP file transfer, tethering, etc.) in Settings -> Connected devices -> USB. This setting has not been moved or changed from stock.
 
