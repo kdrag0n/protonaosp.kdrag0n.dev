@@ -1,5 +1,6 @@
 ---
 sidebar_position: 20
+slug: /performance
 ---
 
 # Performance
