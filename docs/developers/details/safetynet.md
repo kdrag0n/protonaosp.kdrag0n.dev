@@ -24,7 +24,7 @@ SafetyNet's CTS profile check verifies the build profile against Google's databa
 - System & vendor security patch levels
 - Build fingerprint
 
-Spoofing the build fingerprint is the intuitive solution, but causes issues because Android uses build fingerprint changes as a signal to clear and rebuild several caches. If the build fingerprint always stays the same (or only changes once per month), system updates that change resource IDs or native libraries embedded in APKs can cause strange issues. This forces users to wipe data on every update and results in poor UX.
+Spoofing the build fingerprint is the intuitive solution, but it causes issues because Android uses build fingerprint changes as a signal to clear and rebuild several caches. If the build fingerprint always stays the same (or only changes once per month), system updates that change resource IDs or native libraries embedded in APKs can cause strange issues. This forces users to wipe data on every update and results in poor UX.
 
 Instead of overriding the system fingerprint for all builds, ProtonAOSP only reports the spoofed fingerprint to Google Play Services. This helps make SafetyNet pass without causing issues with the system itself.
 
