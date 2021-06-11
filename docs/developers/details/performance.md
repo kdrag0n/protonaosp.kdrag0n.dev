@@ -14,7 +14,7 @@ ProtonAOSP features a number of performance improvements that make the overall s
 
 [Benchmark results](#benchmarks) are available to quantify these performance improvements. Most of them are the result of empirically profiling for bottlenecks and optimizing accordingly.
 
-The sections below describe the technical details of our optimizations.
+The sections below describe the technical details of our optimizations. All pre-optimization profiling percentages were sourced from a Pixel 5 running ProtonAOSP 11.3.1, unless otherwise stated. "The Settings test" refers to opening and closing activities in Settings, specifically Developer Options because of the amount of preferences it contains.
 
 ## Native code
 
@@ -24,7 +24,7 @@ Most of ProtonAOSP's performance improvements are in native components, which co
 
 Android 11 switched to the [Scudo memory allocator](https://source.android.com/devices/tech/debug/scudo) for security hardening, but this comes at the expense of performance. We trade the ability to detect memory usage bugs for performance instead by using the latest stable version of [jemalloc](https://github.com/jemalloc/jemalloc), updated from the official repository.
 
-In Bionic libc's semi-realistic [memory trace replay tests](https://android.googlesource.com/platform/system/extras/+/refs/heads/master/memory_replay), jemalloc performed up to [4x better than Scudo](https://docs.google.com/spreadsheets/d/1LG_kxaK5cI14gGtnyM-nNNmfpMdV9Vh-LtYoq7H5J4s/edit).
+In Bionic libc's semi-realistic [memory trace replay tests](https://android.googlesource.com/platform/system/extras/+/refs/heads/master/memory_replay), jemalloc performed up to [4x better than Scudo](https://docs.google.com/spreadsheets/d/1LG_kxaK5cI14gGtnyM-nNNmfpMdV9Vh-LtYoq7H5J4s/edit) while using nearly the same amount of memory.
 
 ### Optimized zlib
 
@@ -35,11 +35,11 @@ We use an optimized fork of the ubiquitous zlib data compression library, [zlib-
 - Android resource loading
 - ZIP archives
 
-This speeds up screenshot saving by 16% on the Pixel 5 and likely contributes to the faster cold app launches as well.
+Combined with other improvements, this speeds up screenshot saving by 16% on the Pixel 5 and likely contributes to the faster cold app launches as well.
 
 ### Bionic libc
 
-Bionic libc includes string and memory routines used by nearly every process on Android. We optimized these by porting them from Arm's [arm-optimized-routines](https://github.com/ProtonAOSP/android_bionic/commit/61f715c4f) project.
+Bionic libc includes string and memory routines used by nearly every process on Android. We use more optimized versions of these commonly-used functions by porting them from Arm's [arm-optimized-routines](https://github.com/ProtonAOSP/android_bionic/commit/61f715c4f) project.
 
 ### Global ThinLTO
 
@@ -58,7 +58,9 @@ We have either updated or switched to accelerated forks of the following librari
 
 ### Reduced debugging
 
-We've disabled the [statsd](https://github.com/ProtonAOSP/android_system_core/commit/4c6eb4bfb) daemon, which collects diagnostic statistics that are normally unused on ProtonAOSP.
+We've disabled the [statsd](https://github.com/ProtonAOSP/android_system_core/commit/4c6eb4bfb) daemon, which collects diagnostic statistics that are normally unused on ProtonAOSP. In our testing, statsd itself accounted for 0.04% of CPU time in the Settings test, with more overhead (over 0.02%) from clients serializing and sending stats for collection.
+
+Similarly, we [disabled debug tracing in ART](https://github.com/ProtonAOSP/android_art/commit/9843b4182a27c82ab6a0513c39f893bb18eafcb9) to save 33% of the 0.1% CPU time spent checking whether specific trace tags are enabled.
 
 ### Compiler optimizations
 
@@ -81,25 +83,27 @@ Some other miscellaneous optimizations in native libraries have been ported from
 
 While we have more optimizations focused on native code, higher-level Java code has also been optimized according to simpleperf profiles.
 
+Percentages in the following sections refer to global CPU time in the Settings test. In indented sections, the percentage is a fraction of the parent items.
+
 ### Framework & core services
 
-- Reduce reflection overhead
-  - [LayoutInflater: Opportunistically create views directly for performance](https://github.com/ProtonAOSP/android_frameworks_base/commit/9b532b353fb6)
-- Replace ArrayMap with HashMap for performance
-  - [SystemServiceRegistry](https://github.com/ProtonAOSP/android_frameworks_base/commit/9d18a2ba4b75)
-  - [PackageManagerService](https://github.com/ProtonAOSP/android_frameworks_base/commit/874b64319302)
-  - [InsetsStateController](https://github.com/ProtonAOSP/android_frameworks_base/commit/7965a433d2f7)
-  - [LocalServices](https://github.com/ProtonAOSP/android_frameworks_base/commit/f08c65a7267c)
-  - [ThemedResourceCache](https://github.com/ProtonAOSP/android_frameworks_base/commit/7d73bd479351)
+- Reduce reflection overhead (12% of 0.39% ART JNI trampolines)
+  - [LayoutInflater: Opportunistically create views directly for performance](https://github.com/ProtonAOSP/android_frameworks_base/commit/9b532b353fb6) (88%)
+- Replace ArrayMap with HashMap for performance (0.12%)
+  - [SystemServiceRegistry](https://github.com/ProtonAOSP/android_frameworks_base/commit/9d18a2ba4b75) (5%)
+  - [PackageManagerService](https://github.com/ProtonAOSP/android_frameworks_base/commit/874b64319302) (22%)
+  - [InsetsStateController](https://github.com/ProtonAOSP/android_frameworks_base/commit/7965a433d2f7) (7%)
+  - [LocalServices](https://github.com/ProtonAOSP/android_frameworks_base/commit/f08c65a7267c) (6%)
+  - [ThemedResourceCache](https://github.com/ProtonAOSP/android_frameworks_base/commit/7d73bd479351) (10%)
 - Reduce debugging overhead
-  - [Trace: Disable debug tracing in production builds](https://github.com/ProtonAOSP/android_frameworks_base/commit/4caddd350b87)
-  - [statsd: Disable native stats collection service](https://github.com/ProtonAOSP/android_frameworks_base/commit/d3319b8762e6)
-- Reduce interface method trampoline overhead
-  - [PackageInfo: Optimize ApplicationInfo creation](https://github.com/ProtonAOSP/android_frameworks_base/commit/7ae0e4d46f44)
+  - [Trace: Disable debug tracing in production builds](https://github.com/ProtonAOSP/android_frameworks_base/commit/4caddd350b87) (2% of 0.12% trace tags)
+  - [statsd: Disable native stats collection service](https://github.com/ProtonAOSP/android_frameworks_base/commit/d3319b8762e6) (0.06%)
+- Reduce interface method trampoline overhead (0.32%)
+  - [PackageInfo: Optimize ApplicationInfo creation](https://github.com/ProtonAOSP/android_frameworks_base/commit/7ae0e4d46f44) (5%)
 
 ### UI services
 
-- Reduce unnecessary CPU-rendered screenshot captures
+- Reduce unnecessary CPU-rendered screenshot captures (over 2%)
   - [Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility"](https://github.com/ProtonAOSP/android_frameworks_base/commit/632a5d16dff2)
 
 ### Native bindings
@@ -109,4 +113,4 @@ While we have more optimizations focused on native code, higher-level Java code 
 
 ## Benchmarks
 
-Raw benchmark results and analysis spreadsheets can be found in the [Google Drive folder](https://drive.google.com/drive/folders/14GCQuRhyHGWcQSj7ymNfD25fScD7vSIK).
+Raw benchmark results and analysis spreadsheets can be found in the [Google Drive folder](https://drive.google.com/drive/folders/1qORVRrTQ71vv4bjqJlhq4MR8kr5P1NT_). Most of the results are from a Pixel 5.
