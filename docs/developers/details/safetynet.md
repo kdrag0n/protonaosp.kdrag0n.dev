@@ -28,7 +28,7 @@ Spoofing the build fingerprint is the intuitive solution, but it causes issues b
 
 Instead of overriding the system fingerprint for all builds, ProtonAOSP only reports the spoofed fingerprint to Google Play Services. This helps make SafetyNet pass without causing issues with the system itself.
 
-Commits: [Spoof build fingerprint for Google Play Services](https://github.com/ProtonAOSP/android_frameworks_base/commit/b8adfb5d711c) and [core: Make build property spoofing more reliable](https://github.com/ProtonAOSP/android_frameworks_base/commit/4e37c5884262)
+Commits: [Spoof build fingerprint for Google Play Services](https://github.com/ProtonAOSP/android_frameworks_base/commit/b8adfb5d711c), [core: Make build property spoofing more reliable](https://github.com/ProtonAOSP/android_frameworks_base/commit/4e37c5884262), and [Only use stock build fingerprint for Google Play Services](https://github.com/ProtonAOSP/android_vendor_proton/commit/29a394f).
 
 ## Security patch level
 
