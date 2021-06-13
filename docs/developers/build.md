@@ -11,7 +11,7 @@ You can build ProtonAOSP yourself, whether it's for adding changes to an officia
 You'll need a reasonably capable computer to avoid running into issues:
 
 - 16+ GB of RAM
-- 200+ GB of free SSD storage
+- 400+ GB of free SSD storage
 
 ## Prepare your system
 
