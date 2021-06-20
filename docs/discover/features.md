@@ -47,7 +47,7 @@ We pay attention to details in the user interface:
 - Fewer distractions in the system
 - Builtin wallpapers designed by Infinitum
 
-See [Theme](../developers/details/theme.md) and [Blur](../developers/details/blur.md) for technical details.
+See [Theme](../developers/details/theme.md) for details.
 
 ## Improved memory management {#memory}
 

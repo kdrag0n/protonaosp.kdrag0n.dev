@@ -153,7 +153,7 @@ On Pixel devices, Now Playing will show the current song as a minimized notifica
 
 This is caused by the frosted glass blur effect that we use in the notification shade and quick settings, which may be laggy in certain heavy scenarios on some devices. You can choose to disable blur in Settings -> Developer options -> Enable blurs.
 
-Our custom blur implementation is already [considerably faster](developers/details/blur.md) than Google's, but there is still more room for improvement. These improvements will most likely be added in future versions of ProtonAOSP.
+Our custom blur implementation is already considerably faster than Google's, although there is still more room for improvement.
 
 ### USB file transfer doesn't work {#usb-mode}
 
