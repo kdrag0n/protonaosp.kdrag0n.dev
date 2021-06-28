@@ -6,6 +6,8 @@ sidebar_position: 30
 
 If you have a question, please read or search this page before asking. It saves time for everyone -- especially you.
 
+**[You can also search for your question.](/search)**
+
 ## Features
 
 ### Can you add feature X? {#add-feature}
