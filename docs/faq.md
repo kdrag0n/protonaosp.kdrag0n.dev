@@ -145,6 +145,12 @@ The solutions are the same -- you can fix this with any of the following:
   adb shell pm uninstall --user 0 com.google.android.ims
   ```
 
+### Settings Services keeps stopping {#settings-services}
+
+Settings Services is a proprietary Google app that only works on the stock Pixel OS. It's not part of ProtonAOSP, but you may have gotten it by restoring a Google backup from stock.
+
+To fix this issue, uninstall "Settings Services" in Settings -> Apps -> All apps.
+
 ### Now Playing doesn't work {#now-playing-broken}
 
 On Pixel devices, Now Playing will show the current song as a minimized notification, so check your notification shade. It's not on the lock screen or ambient display because those are [proprietary features](#missing-pixel-feature).
