@@ -1,5 +1,5 @@
 ---
-sidebar_position: -999999
+sidebar_position: 0
 ---
 
 # Early access
