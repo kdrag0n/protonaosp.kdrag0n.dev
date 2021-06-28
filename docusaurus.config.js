@@ -162,6 +162,10 @@ module.exports = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    algolia: {
+      apiKey: 'be0421e91706696bc4c772cc532e2f0c',
+      indexName: 'protonaosp',
+    },
     goatcounter: process.env.GOATCOUNTER_CODE !== undefined ? {
       code: process.env.GOATCOUNTER_CODE,
     } : undefined,
