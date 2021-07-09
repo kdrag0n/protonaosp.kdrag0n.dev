@@ -13,6 +13,7 @@ ProtonAOSP offers many improvements on the stock Android experience:
 - Under-the-hood tweaks
 - Privacy
 - Convenience
+- Customization
 - Default experience
 
 It also keeps what you're used to on stock:
@@ -45,9 +46,11 @@ We pay attention to details in the user interface:
 - Light and dark colors derived from the [Primer Design System](https://primer.style/) and modified in a perceptual color space
 - Frosted glass blur with state-of-the-art rendering techniques
 - Fewer distractions in the system
+- [Higher-quality Night Light](screenshots.mdx#night-light-improvements) and Ambient EQ using modern color science
+- Gradual, less jarring transitions when turning Night Light on/off
 - Builtin wallpapers designed by Infinitum
 
-See [Theme](../developers/details/theme.md) for details.
+See [Theme](../developers/details/theme.md) for more details about the color scheme.
 
 ## Improved memory management {#memory}
 
@@ -89,12 +92,23 @@ We also have a few assorted features for your convenience:
 - Advanced settings expanded by default
 - Command-line tools for developers
 
+## Customization
+
+While ProtonAOSP isn't focused on customization, it still offers more choices than stock:
+
+- Status bar icon and clock settings
+- System-wide font styles (also affects third-party apps)
+- Display color balance adjustment (red, green, and blue)
+
+Check the [screenshots](screenshots.mdx#customization) for more details.
+
 ## Default experience {#defaults}
 
 The out-of-the-box experience is made to fit your needs:
 
 - Modern default settings
 - Material ringtone, alarm, and notification sounds
+- Plasma Mobile sounds
 - 2D and photo wallpapers
 
 ## SafetyNet
@@ -113,9 +127,10 @@ Not all Pixel-exclusive features are included due to their proprietary nature, b
 
 - Live Caption
 - Now Playing
-- Screen attention (Pixel 4+)
-- Adaptive 5G connectivity (Pixel 5+)
+- Screen attention (Pixel 4 and newer)
+- Adaptive 5G connectivity (Pixel 5 and newer)
 - Adaptive Sound (Pixel 5)
+- Increased touch sensitivity (Pixel 4 and newer)
 
 ## Device-specific features {#device-specific}
 
