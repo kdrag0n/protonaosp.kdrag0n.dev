@@ -131,7 +131,7 @@ module.exports = {
             },
             {
               label: 'Technical details',
-              to: '/developers/details/blur',
+              to: '/performance',
             },
           ],
         },
