@@ -9,7 +9,7 @@ You don't need to download ProtonAOSP yourself in most cases. Use the [web insta
 
 Variants with gapps include Google services and apps necessary for most popular apps to work, including the Google Play Store. Minimal variants lack support for such apps, but they are more privacy-friendly.
 
-The following downloads are for the latest version, [11.5.1](versions/11.5.1.md).
+The following downloads are for the latest version, [11.5.2](versions/11.5.2.md).
 
 :::caution
 
@@ -21,16 +21,16 @@ For Pixel devices, XL models are different from their smaller counterparts. Flas
 
 Factory images can be flashed the same way you would flash stock Pixel factory images from Google. We recommend using them instead of full OTAs because they contain firmware and other parts for a more complete install, especially if you're coming from an old major version of Android. Check the [manual installation guide](install/manual.mdx) for instructions.
 
-- Pixel 5 (redfin): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.1/proton-aosp_redfin-factory_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.1/proton-aosp_redfin-factory_11.5.1-gapps.zip)
-- Pixel 4a 5G (bramble): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.1/proton-aosp_bramble-factory_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.1/proton-aosp_bramble-factory_11.5.1-gapps.zip)
-- Pixel 4 (flame): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.1/proton-aosp_flame-factory_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.1/proton-aosp_flame-factory_11.5.1-gapps.zip)
-- Pixel 4 XL (coral): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.1/proton-aosp_coral-factory_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.1/proton-aosp_coral-factory_11.5.1-gapps.zip)
-- Pixel 2 (walleye): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_walleye-factory_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_walleye-factory_11.5.1-gapps.zip)
-- Pixel 2 XL (taimen): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_taimen-factory_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_taimen-factory_11.5.1-gapps.zip)
+- Pixel 5 (redfin): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.2/proton-aosp_redfin-factory_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.2/proton-aosp_redfin-factory_11.5.2-gapps.zip)
+- Pixel 4a 5G (bramble): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.2/proton-aosp_bramble-factory_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v11.5.2/proton-aosp_bramble-factory_11.5.2-gapps.zip)
+- Pixel 4 (flame): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.2/proton-aosp_flame-factory_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.2/proton-aosp_flame-factory_11.5.2-gapps.zip)
+- Pixel 4 XL (coral): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.2/proton-aosp_coral-factory_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v11.5.2/proton-aosp_coral-factory_11.5.2-gapps.zip)
+- Pixel 2 (walleye): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_walleye-factory_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_walleye-factory_11.5.2-gapps.zip)
+- Pixel 2 XL (taimen): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_taimen-factory_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_taimen-factory_11.5.2-gapps.zip)
 
 ## Full OTAs {#full-ota}
 
 Full OTA packages are also available for some devices. These can be flashed with a custom recovery, such as [TWRP](https://twrp.me).
 
-- Pixel 2 (walleye): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_walleye-ota_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_walleye-ota_11.5.1-gapps.zip)
-- Pixel 2 XL (taimen): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_taimen-ota_11.5.1.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.1/proton-aosp_taimen-ota_11.5.1-gapps.zip)
+- Pixel 2 (walleye): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_walleye-ota_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_walleye-ota_11.5.2-gapps.zip)
+- Pixel 2 XL (taimen): [minimal](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_taimen-ota_11.5.2.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_wahoo/releases/download/v11.5.2/proton-aosp_taimen-ota_11.5.2-gapps.zip)
