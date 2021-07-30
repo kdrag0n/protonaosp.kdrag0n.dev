@@ -172,30 +172,19 @@
   src: url("../../static/fonts/Inter-italic.var.woff2?v=3.18") format("woff2");
 }
 
-body {
-  font-family: 
-    Inter,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial,
-    sans-serif,
-    "Apple Color Emoji";
+:root {
+  --ifm-font-family-base: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
 
+body {
+  font-family: var(--ifm-font-family-base);
   line-height: 1.45; /* from Practical Typography */
 }
 
 /* Opportunistically use variable fonts to reduce download size */
 @supports (font-variation-settings: normal) {
-  body {
-    font-family:
-      "Inter var",
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial,
-      sans-serif,
-      "Apple Color Emoji";
+  :root {
+    --ifm-font-family-base: 'Inter var', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
 }
 
