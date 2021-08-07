@@ -123,7 +123,7 @@ This is caused by our support for eSIM on Pixel devices. Google's eSIM manager d
 
 You can fix this with any of the following solutions:
 
-- Installing [microG](https://microg.org/)
+- Installing [Google services](advanced/google-services.md)
 - Installing [Gcam Services Provider](https://github.com/lukaspieper/Gcam-Services-Provider)
 - Disabling eSIM by running this command on a computer:
   ```bash
@@ -138,7 +138,7 @@ This is the same underlying issue as "SIM Manager keeps stopping," which is answ
 
 The solutions are the same -- you can fix this with any of the following:
 
-- Installing [microG](https://microg.org/)
+- Installing [Google services](advanced/google-services.md)
 - Installing [Gcam Services Provider](https://github.com/lukaspieper/Gcam-Services-Provider)
 - Disabling Carrier Services by running this command on a computer:
   ```bash
