@@ -4,7 +4,7 @@ sidebar_position: 30
 
 # Frequently Asked Questions
 
-If you have a question, please read or search this page before asking. It saves time for everyone -- especially you.
+If you have a question, please read or search this page before asking. It saves time for everyone — especially you.
 
 **[You can also search for your question.](/search)**
 
@@ -70,8 +70,6 @@ No. From the answer above:
 > We only include this set of apps and **will not add more** for size and privacy reasons. You can install more Google apps from the Play Store.
 >
 > Call screening will not work in Google Dialer if you install it from the Play Store, but unfortunately, it won't be added to the system for size and privacy reasons. You can try [rooting](advanced/rooting.md) and "systemizing" the app if you still want the feature.
-
-
 
 ### Are hotspot and tethering supported? {#hotspot-support}
 
@@ -146,6 +144,10 @@ The solutions are the same -- you can fix this with any of the following:
   ```bash
   adb shell pm uninstall --user 0 com.google.android.ims
   ```
+
+### RCS doesn't activate {#rcs}
+
+RCS may fail to activate if you didn't deactivate it before installing ProtonAOSP by disabling "Enable chat features" in Google Messages. To fix the issue, disable it using [Google's online tool](https://messages.google.com/disable-chat) and try activating RCS again.
 
 ### Settings Services keeps stopping {#settings-services}
 
