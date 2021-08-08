@@ -209,7 +209,7 @@ ProtonAOSP is **not** a privacy-focused ROM. It has more [privacy-related featur
 
 ### Is ProtonAOSP secure? {#how-secure}
 
-In general, ProtonAOSP has the same security as Google's stock OS, except for verified boot. You can't lock the bootloader on ProtonAOSP because it wasn't originally designed to support that, and adding support now would force all existing users to wipe their data. We will most likely add support for verified boot when upgrading to Android 12. In the meantime, physical security is weakened as compared to stock, so keep this in mind if you're looking for security.
+In general, ProtonAOSP has the same security as Google's stock OS, including signing with private keys and verified boot (AVB). You can optionally re-lock the bootloader after installing ProtonAOSP in order to use verified boot and benefit from improved physical security, as well as resistance against persistent attacks.
 
 ProtonAOSP is **not** a security-focused ROM. It has some [minor security features](discover/features.md#privacy), but security is not its core focus. You may be better served by other ROMs if maximum security is important to you.
 

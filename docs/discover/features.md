@@ -69,11 +69,12 @@ We've fixed some minor bugs from Google's stock OS:
 - Fixes for some AOSP bugs
 - Latest Chromium WebView
 
-## Privacy
+## Privacy and security
 
 ProtonAOSP is not specifically dedicated to improving privacy or security, but it still has some features to help keep your data private:
 
 - [Support for microG and sandboxed Google Play Services](../advanced/google-services.md)
+- [Support for bootloader re-locking with verified boot](../advanced/verified-boot.md)
 - Secure quick settings
 - Internet & sensor permissions
 - Camera and microphone usage indicators
