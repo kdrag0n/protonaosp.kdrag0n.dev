@@ -77,7 +77,7 @@ Yes, Wi-Fi hotspot and USB tethering both work on officially-supported devices. 
 
 ### Is battery life good on ProtonAOSP? {#battery-life}
 
-Battery life is a highly personal thing that is different for each individual user, so we can't predict how good the battery life will be for you or how many hours of screen-on time you will get. We don't make tweaks specifically for battery life, but for most users, battery life is considerably better than Google's stock OS because of the reduced bloat and background services.
+Battery life is a highly personal thing that is different for each individual user, so we can't predict how good the battery life will be for you or how many hours of screen-on time you will get. We don't make tweaks specifically for battery life, but for most users, battery life is considerably better than Google's stock OS because of the reduced bloat and fewer background services.
 
 ## Updates
 
@@ -173,6 +173,12 @@ The persistent USB notifcation was intentionally removed because it adds to noti
 
 Google Pay integration in the power menu is a part of Google Play Services. Unfortunately, it tends to be unreliable to register on new installs, even on Google's stock OS. Your best bet is to wait a few days for Google Play Services to register the integration.
 
+### Text selection is missing in Recents {#recents-text-selection}
+
+Text selection in the recents overview is a [proprietary Pixel feature](#missing-pixel-feature), so it will not be added until we have a custom implementation.
+
+However, if you are [rooted](advanced/rooting.md), you can install [Pixel Launcher](https://www.apkmirror.com/apk/google-inc/pixel-launcher/pixel-launcher-11-release/pixel-launcher-11-6-android-apk-download/) manually and use [QuickSwitch](https://github.com/skittles9823/QuickSwitch/releases) to enable full functionality. This will make recents text selection work at the cost of losing ProtonAOSP's launcher changes.
+
 ### I found a bug {#bug}
 
 Please check all the other [problems](#problems) to make sure it isn't already covered. If you're sure that it's a new bug, see [Community](community.md) for ways to report it.
@@ -209,9 +215,9 @@ ProtonAOSP is **not** a privacy-focused ROM. It has more [privacy-related featur
 
 ### Is ProtonAOSP secure? {#how-secure}
 
-In general, ProtonAOSP has the same security as Google's stock OS, including signing with private keys and verified boot (AVB). You can optionally re-lock the bootloader after installing ProtonAOSP in order to use verified boot and benefit from improved physical security, as well as resistance against persistent attacks.
+In general, ProtonAOSP is just as secure as Google's stock OS, including signing with private keys and verified boot (AVB). You can optionally re-lock the bootloader after installing ProtonAOSP in order to use verified boot and benefit from improved physical security, as well as resistance against persistent attacks.
 
-ProtonAOSP is **not** a security-focused ROM. It has some [minor security features](discover/features.md#privacy), but security is not its core focus. You may be better served by other ROMs if maximum security is important to you.
+However, ProtonAOSP is **not** a security-focused ROM. It has some [minor security features](discover/features.md#privacy), but security is not its core focus. You may be better served by other ROMs if maximum security is important to you.
 
 ### Is the web installer bad for security? {#web-installer-security}
 
