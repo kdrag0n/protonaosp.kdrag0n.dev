@@ -33,7 +33,7 @@ For additional privacy and security, ProtonAOSP has a compatibility layer that a
 - SafetyNet (basic integrity passes, but not CTS profile checks)
 - Dynamite modules (e.g. Maps API v2 and Cronet)
 
-With this method, you can use the vast majority of apps without giving Play Services special privileges or compromising privacy. You can also choose to Google Play Services in a secondary user and use it exclusively for apps that have a hard dependency on it.
+With this method, you can use the vast majority of apps without giving Play Services special privileges or compromising privacy. You can also choose to install Google Play Services as a secondary user and use it exclusively for apps that have a hard dependency on it.
 
 ### Install Play Services
 
