@@ -9,7 +9,7 @@ You don't need to download ProtonAOSP yourself in most cases. Use the [web insta
 
 Variants with gapps include Google services and apps necessary for most popular apps to work, including the Google Play Store. Minimal variants lack support for such apps, but they are more privacy-friendly.
 
-The following downloads are for the latest version, [11.6.0](versions/11.6.0.md).
+The following downloads are for the latest public version, [11.6.0](versions/11.6.0.md).
 
 :::caution
 
