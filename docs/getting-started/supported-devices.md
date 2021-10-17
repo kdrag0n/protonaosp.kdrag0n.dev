@@ -6,8 +6,6 @@ sidebar_position: 0
 
 ProtonAOSP officially supports the following devices:
 
-- Pixel 2
-- Pixel 2 XL
 - Pixel 4
 - Pixel 4 XL
 - Pixel 4a 5G

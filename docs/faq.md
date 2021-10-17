@@ -21,6 +21,7 @@ Examples of features that will not be added, because they are proprietary and ca
 - Now Playing song on the lock screen or ambient display
 - "Rules" automation in Settings
 - Pixel Launcher
+- Live Space
 
 It is also **very unlikely** that we will add customization features, as this is not a customization-focused ROM.
 
@@ -35,6 +36,7 @@ Most Pixel-exclusive features are proprietary and thus cannot be added without t
 > - Now Playing song on the lock screen or ambient display
 > - "Rules" automation in Settings
 > - Pixel Launcher
+> - Live Space
 
 ### Where are the customization settings? {#customization-settings}
 
@@ -177,7 +179,7 @@ Google Pay integration in the power menu is a part of Google Play Services. Unfo
 
 Text selection in the recents overview is a [proprietary Pixel feature](#missing-pixel-feature), so it will not be added until we have a custom implementation.
 
-However, if you are [rooted](advanced/rooting.md), you can install [Pixel Launcher](https://www.apkmirror.com/apk/google-inc/pixel-launcher/pixel-launcher-11-release/pixel-launcher-11-6-android-apk-download/) manually and use [QuickSwitch](https://github.com/skittles9823/QuickSwitch/releases) to enable full functionality. This will make recents text selection work at the cost of losing ProtonAOSP's launcher changes.
+However, if you are [rooted](advanced/rooting.md), you can install [Pixel Launcher](https://www.apkmirror.com/apk/google-inc/pixel-launcher/pixel-launcher-12-release/pixel-launcher-12-3-android-apk-download/) manually and use [QuickSwitch](https://github.com/skittles9823/QuickSwitch/releases) to enable full functionality. This will make recents text selection work at the cost of losing ProtonAOSP's launcher changes.
 
 ### I found a bug {#bug}
 
@@ -189,11 +191,10 @@ Please check all the other [problems](#problems) to make sure it isn't already c
 
 Unlike Google's stock OS, the dark theme is dark gray instead of pure ("AMOLED") black. This is because black themes have many problems from a design standpoint:
 
-- A black background makes it impossible to express elevation via shadows.
+- A black background makes it impossible to express depth using tonal variations.
 - On OLED displays, the overly high contrast of white-on-black text is harsh on the eyes for some people.
 - On AMOLED displays, black smearing is a major problem at low brightness.
-
-ProtonAOSP uses a dark gray theme based on the [Primer Design System](https://primer.style/) to avoid these problems. However, we recognize that some people prefer black themes despite their shortcomings, so **a pure black theme may become available in the future**.
+- Black can't be tinted to match other Material You colors.
 
 If you want a black theme purely to save power, take a look at [XDA's analysis](https://www.xda-developers.com/amoled-black-vs-gray-dark-mode/). Black saves a marginal amount of power compared to dark gray themes according to the tests — not enough to make a practical difference.
 
@@ -219,7 +220,7 @@ In general, ProtonAOSP is just as secure as Google's stock OS, including signing
 
 However, ProtonAOSP is **not** a security-focused ROM. It has some [minor security features](discover/features.md#privacy), but security is not its core focus. You may be better served by other ROMs if maximum security is important to you.
 
-### Is the web installer bad for security? {#web-installer-security}
+### Isn't the web installer insecure? {#web-installer-security}
 
 No, the web installer is just as safe and secure as manual installation in most cases. See [Common misconceptions](getting-started/install/install.md#web-installer-misconceptions) for more information.
 
@@ -242,9 +243,3 @@ If you can't donate, that's okay! You can still help us by spreading the word ab
 ProtonAOSP is an open-source project, so anyone can [download the source code](developers/download.md) and verify our claims.
 
 Our performance claims are the result of empirically testing the changes we make -- we do not simply make up numbers. The official performance numbers are from a Pixel 5 running a pre-release build of ProtonAOSP 11.4.0. See [Performance](developers/details/performance.md) for more information, including the technical details of our changes.
-
-### I don't like ProtonAOSP
-
-We strive to build a high-quality product, but we realize that nothing is perfect for everyone. You may be better served by other ROMs in that case.
-
-However you choose to proceed, please refrain from complaining frequently and posting negative comments about ProtonAOSP. It wastes everyone's time, including yours.

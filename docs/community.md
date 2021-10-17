@@ -17,15 +17,14 @@ Reading [the FAQ](faq.md) saves time for everyone.
 ## Telegram groups
 
 - [General](https://t.me/protonaosp)
-- [Pixel 2, Pixel 2 XL](https://t.me/proton_p2)
 - [Pixel 4, Pixel 4 XL](https://t.me/proton_p4)
 - [Pixel 5, Pixel 4a 5G](https://t.me/proton_p5)
 - [Related projects](https://t.me/proton_releases)
 
 ## XDA threads
 
-- [Pixel 2](https://forum.xda-developers.com/t/rom-pixel-2-official-protonaosp-11-3-1.4188111/)
-- [Pixel 2 XL](https://forum.xda-developers.com/t/rom-pixel-2-xl-official-protonaosp-11-3-3.4188109/)
+- [Pixel 4](https://forum.xda-developers.com/t/rom-pixel-4-official-protonaosp-11.4278503/)
+- [Pixel 4 XL](https://forum.xda-developers.com/t/rom-pixel-4-xl-official-protonaosp-11.4278499/)
 - [Pixel 5](https://forum.xda-developers.com/t/rom-pixel-5-official-protonaosp-11.4188129/)
 - [Pixel 4a 5G](https://forum.xda-developers.com/t/rom-pixel-4a-5g-official-protonaosp-11-3-0.4203755/)
 

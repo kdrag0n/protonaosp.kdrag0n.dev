@@ -14,7 +14,7 @@ cd protonaosp
 Then initialize the folder and sync the source code:
 
 ```bash
-repo init -u https://github.com/ProtonAOSP/android_manifest -b rvc
+repo init -u https://github.com/ProtonAOSP/android_manifest -b sc
 repo sync
 ```
 
@@ -29,6 +29,7 @@ repo sync -j8
 ## Branches
 
 - `rvc`: Android 11 (Red Velvet Cake)
+- `sc`: Android 12 (Snow Cone)
 
 ## Building
 
