@@ -41,7 +41,22 @@ Apart from optimized algorithms, zlib-ng makes more use of NEON SIMD and other A
 
 ### Reduced debugging
 
-We've [disabled debug tracing in ART](https://github.com/ProtonAOSP/android_art/commit/9843b4182a27c82ab6a0513c39f893bb18eafcb9) to save 33% of the 0.1% CPU time spent checking whether specific trace tags are enabled.
+We've [disabled debug tracing in ART](https://github.com/ProtonAOSP/android_art/commit/d7ce58b655) to save 33% of the 0.1% CPU time spent checking whether specific trace tags are enabled.
+
+## Garbage collection
+
+Improvements to ART's garbage collection have been backported from Android 13 (AOSP master):
+
+- [optimization of gc load, reduce gc in some scenarios](https://github.com/ProtonAOSP/android_art/commit/b49effd54f)
+- [Trigger fewer GCs during startup](https://github.com/ProtonAOSP/android_art/commit/cac15bc3e3)
+
+## Low memory killer
+
+The low memory killer, responsible for stopping background apps when memory is running low, has improvements backported from Android 13 (AOSP master) to kill apps faster:
+
+- [lmkd: move to foreground cpuset before killing](https://github.com/ProtonAOSP/android_system_memory_lmkd/commit/b803742)
+- [lmkd: use fd cache for cgroup migration](https://github.com/ProtonAOSP/android_system_memory_lmkd/commit/8c6d514)
+- [lmkd: migrate process to FOREGROUND sched group before kill](https://github.com/ProtonAOSP/android_system_memory_lmkd/commit/130c294)
 
 ## Java code
 
