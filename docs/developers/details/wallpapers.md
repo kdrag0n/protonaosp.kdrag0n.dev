@@ -12,9 +12,7 @@ Instead of adding system-static wallpapers as files, our [wallpaper stub package
 
 ### WallpaperPicker2
 
-- [WallpaperPicker2: Don't publish placeholder categories](https://github.com/ProtonAOSP/android_packages_apps_ProtonWallpaperStub/commit/29d7d02)
-- [WallpaperPicker2: Fix race condition for fast-loading wallpapers](https://github.com/ProtonAOSP/android_packages_apps_ProtonWallpaperStub/commit/6fc7268)
-- [WallpaperPicker2: Merge code review updates for race condition fix](https://github.com/ProtonAOSP/android_packages_apps_ProtonWallpaperStub/commit/822cdbb)
+- [WallpaperPicker2: Don't publish placeholder categories](https://github.com/ProtonAOSP/android_packages_apps_WallpaperPicker2/commit/e5fd4d7)
 
 ## Vendor
 
