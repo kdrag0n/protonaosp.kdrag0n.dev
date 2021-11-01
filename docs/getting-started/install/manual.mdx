@@ -15,7 +15,7 @@ You can only use a Windows, macOS, or Linux computer for this manual installatio
 
 ## Download a build {#download}
 
-[Download](../download.md) the build you want to install. You can choose either factory images or full OTA packages -- both are covered below. We recommend factory images, unless you're already familiar with flashing full OTAs and would rather stick with them.
+[Download](../download.md) the build you want to install in factory images format.
 
 ## Prepare your phone {#prepare-phone}
 
@@ -158,36 +158,10 @@ flash-all.bat
 
 **Don’t touch, unplug, or press any buttons** on your device during the install. Your phone will restart several times, but **don’t touch it.** It will automatically boot into ProtonAOSP once the installation process completes.
 
-### Full OTA
-
-#### Download a custom recovery
-
-Full OTAs can only be installed in a custom recovery, so you need to download one for your device first. We recommend [TWRP](https://twrp.me) for supported devices, such as the Pixel 2 series.
-
-#### Boot the custom recovery
-
-Run the following command to boot the custom recovery:
-
-```bash
-fastboot boot twrp-3.5.2_9-0-taimen.img
-```
-
-#### Sideload the package
-
-After booting the custom recovery, you can install the full OTA package by sideloading it from your computer:
-
-```bash
-adb sideload proton-aosp_taimen-ota_11.5.0.zip
-```
-
-#### Restart your phone
-
-Watch the phone for installation progress. Once it's finished, restart your phone using the buttons in the custom recovery.
-
 ## Finish
 
-You can now delete the factory images and/or full OTA packages, but don't delete the platform tools -- you'll need them for updating in the future.
+You can now delete the factory images package, but don't delete the platform tools -- you'll need them for updating in the future.
 
 See [First Steps](getting-started/first-steps.md) for what to do next.
 
-For security, you may also wish to [re-lock the bootloader](../../advanced/verified-boot.md) to enforce verified boot, which improves physical security and resistance against persistent attacks. Please note that this option is only available if you installed ProtonAOSP with factory images; it is not possible to re-lock the bootloader if you installed a full OTA package.
+For security, you may also wish to [re-lock the bootloader](../../advanced/verified-boot.md) to enforce verified boot, which improves physical security and resistance against persistent attacks.
