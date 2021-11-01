@@ -163,10 +163,6 @@ module.exports = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    announcementBar: {
-      id: 'release_12.0.0-test2',
-      content: '<a href="/versions/12.0.0?utm_source=docs-banner&utm_campaign=12.0.0-banner">ProtonAOSP 12.0.0 is now available in early access!</a>',
-    },
     algolia: {
       apiKey: 'be0421e91706696bc4c772cc532e2f0c',
       indexName: 'protonaosp',
