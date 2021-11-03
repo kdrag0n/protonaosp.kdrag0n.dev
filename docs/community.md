@@ -17,8 +17,7 @@ Reading [the FAQ](faq.md) saves time for everyone.
 ## Telegram groups
 
 - [General](https://t.me/protonaosp)
-- [Pixel 4, Pixel 4 XL](https://t.me/proton_p4)
-- [Pixel 5, Pixel 4a 5G](https://t.me/proton_p5)
+- [Pixel devices](https://t.me/proton_pixel)
 - [Related projects](https://t.me/proton_releases)
 
 ## XDA threads
