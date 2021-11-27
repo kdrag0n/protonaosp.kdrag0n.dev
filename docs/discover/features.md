@@ -128,13 +128,14 @@ ProtonAOSP is easier to install than most other custom ROMs. It has an [easy-to-
 
 ## Pixel-exclusive features {#pixel-exclusive}
 
-Not all Pixel-exclusive features are supported due to their proprietary nature. The following features are available (depending on your device generation, similar to the stock OS):
+Not all Pixel-exclusive features are supported due to their proprietary nature. The following features are supported (depending on your device generation, like on the stock OS):
 
 - Active Edge
 - Adaptive connectivity
 - Adaptive Sound
 - Assistant quick phrases
 - Auto-rotate face detection
+- Call screening
 - Flip to Shhh
 - Increased touch sensitivity
 - Live Caption
@@ -151,8 +152,6 @@ The following features are **not** supported:
 - Adaptive charging
 - App suggestions
 - Battery Share
-- Call screening
-- Car crash detection
 - Detailed battery usage history slots
 - Extreme Battery Saver
 - Game Dashboard
