@@ -11,7 +11,7 @@ While theming options have not been added to the Settings or Wallpaper & style a
 
 - Colorfulness: `adb shell settings put secure monet_engine_chroma_factor 1.5` (default: 1.0)
 - Inaccurate shades: `adb shell settings put secure monet_engine_accurate_shades 0` (default: 1)
-- Color override: `adb shell settings put secure monet_engine_color_override ff0000`
+- Color override: `adb shell settings put secure monet_engine_color_override ff0000` (remove the `#` from your color code)
 
 Advanced settings:
 
