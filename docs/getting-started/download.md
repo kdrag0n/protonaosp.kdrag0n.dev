@@ -25,3 +25,5 @@ Factory images can be flashed the same way you would flash stock Pixel factory i
 - Pixel 4a 5G (bramble): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.0.0/proton-aosp_bramble-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.0.0/proton-aosp_bramble-factory_12.0.0-gapps.zip)
 - Pixel 4 (flame): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_flame-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_flame-factory_12.0.0-gapps.zip)
 - Pixel 4 XL (coral): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_coral-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_coral-factory_12.0.0-gapps.zip)
+
+Pixel 6 and 6 Pro releases are currently in [early access](../versions/12/12.1.0.md).
