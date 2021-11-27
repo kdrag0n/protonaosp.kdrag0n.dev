@@ -147,15 +147,15 @@ The solutions are the same -- you can fix this with any of the following:
   adb shell pm uninstall --user 0 com.google.android.ims
   ```
 
-### RCS doesn't activate {#rcs}
-
-RCS may fail to activate if you didn't deactivate it before installing ProtonAOSP by disabling "Enable chat features" in Google Messages. To fix the issue, disable it using [Google's online tool](https://messages.google.com/disable-chat) and try activating RCS again.
-
 ### Settings Services keeps stopping {#settings-services}
 
 Settings Services is a proprietary Google app that only works on the stock Pixel OS. It's not part of ProtonAOSP, but you may have gotten it by restoring a Google backup from stock.
 
 To fix this issue, uninstall "Settings Services" in Settings -> Apps -> All apps.
+
+### RCS doesn't activate {#rcs}
+
+RCS may fail to activate if you didn't deactivate it before installing ProtonAOSP by disabling "Enable chat features" in Google Messages. To fix the issue, disable it using [Google's online tool](https://messages.google.com/disable-chat) and try activating RCS again.
 
 ### Now Playing doesn't work {#now-playing-broken}
 
