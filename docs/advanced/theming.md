@@ -1,8 +1,9 @@
 ---
+slug: /advanced/theme
 sidebar_position: 5
 ---
 
-# Theme
+# Theming
 
 ProtonAOSP includes a dynamic wallpaper-based theme engine, different from Google's implementation for Pixel devices. It works automatically in the background and themes the system to match your wallpaper, but you can also customize it to make everything look the way you want it to.
 

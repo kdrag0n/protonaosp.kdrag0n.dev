@@ -45,7 +45,7 @@ We pay attention to details in the user interface:
 
 - Easy-to-read typography with [Inter](https://rsms.me/inter/), [Source Serif Pro](https://github.com/adobe-fonts/source-serif), and [Fira Code](https://github.com/tonsky/FiraCode) fonts and a hand-tweaked lock screen clock
 - [Adaptive dual-tone light and dark themes for quick settings and power menu](screenshots.mdx#system-ui-elements)
-- [Dynamic wallpaper-based Material You themes with modern color science](../advanced/theme.md)
+- [Dynamic wallpaper-based Material You themes with modern color science](../advanced/theming.md)
 - [Launcher widget and popup menu item colors based on underlying wallpaper area](https://twitter.com/kdrag0n/status/1445961943856992258)
 - [Custom ripple animation tuned for responsiveness](https://twitter.com/kdrag0n/status/1445806323535269893)
 - Seamless font weight animations
@@ -103,7 +103,7 @@ While ProtonAOSP isn't focused on customization, it still offers more choices th
 - System-wide font styles (also affects third-party apps)
 - Display color balance adjustment (red, green, and blue)
 - Dedicated Wi-Fi and cellular data tiles in quick settings
-- [Customizable dynamic theme engine](../advanced/theme.md)
+- [Customizable dynamic theme engine](../advanced/theming.md)
 
 Check the [screenshots](screenshots.mdx#customization) for more details.
 
