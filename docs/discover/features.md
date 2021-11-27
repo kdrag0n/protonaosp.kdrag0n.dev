@@ -156,6 +156,7 @@ The following features are **not** supported:
 - Detailed battery usage history slots
 - Extreme Battery Saver
 - Game Dashboard
+- Motion Sense
 - New Material You "At a Glance" (Android 11 version works)
 - Pixel Stand integration
 - Quick Tap
