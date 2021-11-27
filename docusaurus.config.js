@@ -19,7 +19,7 @@ function remarkSmartypants(options) {
 
 module.exports = {
   title: 'ProtonAOSP',
-  tagline: 'Minimal Android fork focused on design and performance',
+  tagline: 'Minimal Android fork for design and performance',
   url: 'https://protonaosp.kdrag0n.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
