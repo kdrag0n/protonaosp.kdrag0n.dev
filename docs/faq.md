@@ -212,13 +212,13 @@ See [Screenshots](discover/screenshots.mdx) for a taste of ProtonAOSP without in
 
 ### Is ProtonAOSP good for privacy? {#how-private}
 
-ProtonAOSP is **not** a privacy-focused ROM. It has more [privacy-related features](discover/features.md#privacy) than most ROMs, but privacy is not its core focus. You may be better served by other ROMs if maximum privacy is important to you.
+ProtonAOSP is **not** a privacy-focused ROM. It has more [privacy-related features](discover/features.md#privacy-and-security) than most ROMs, but privacy is not its core focus. You may be better served by other ROMs if maximum privacy is important to you.
 
 ### Is ProtonAOSP secure? {#how-secure}
 
 In general, ProtonAOSP is just as secure as Google's stock OS, including signing with private keys and verified boot (AVB). You can optionally re-lock the bootloader after installing ProtonAOSP in order to use verified boot and benefit from improved physical security, as well as resistance against persistent attacks.
 
-However, ProtonAOSP is **not** a security-focused ROM. It has some [minor security features](discover/features.md#privacy), but security is not its core focus. You may be better served by other ROMs if maximum security is important to you.
+However, ProtonAOSP is **not** a security-focused ROM. It has some [minor security features](discover/features.md#privacy-and-security), but security is not its core focus. You may be better served by other ROMs if maximum security is important to you.
 
 ### Isn't the web installer insecure? {#web-installer-security}
 

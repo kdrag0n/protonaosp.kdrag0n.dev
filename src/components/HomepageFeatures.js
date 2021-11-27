@@ -36,7 +36,7 @@ const FeatureList = [
         ProtonAOSP helps keep your data private with camera and microphone
         indicators, internet &amp; sensor permissions, and microG support.
         <br />
-        <Link to="/features#privacy">Learn more</Link>
+        <Link to="/features#privacy-and-security">Learn more</Link>
       </>
     ),
   },
