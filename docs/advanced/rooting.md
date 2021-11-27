@@ -52,7 +52,7 @@ If you see a "Cannot load Android system. Your data may be corrupt" error, make 
 
 ProtonAOSP passes SafetyNet out-of-the-box, but rooting will cause SafetyNet to fail again. To fix this, enable MagiskHide in the Magisk settings and add "Google Play Services" (specifically the `com.google.android.gms.unstable` process) to the list of hidden apps.
 
-On Magisk Canary, the process is similar, but not identical. Instead, enable Zygisk and DenyList in the Magisk settings and restart your device. You can then use the following command to add Google Play Services to the DenyList:
+With Magisk Canary, the process is similar, but not identical. Instead, enable Zygisk and DenyList in the Magisk settings and restart your device. You can then use the following command to add Google Play Services to the DenyList:
 
 ```bash
 adb shell magisk --denylist add com.google.android.gms com.google.android.gms.unstable
