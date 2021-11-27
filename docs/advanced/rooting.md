@@ -9,24 +9,51 @@ ProtonAOSP is designed for a good user experience out-of-the-box, without requir
 
 If you have trouble rooting, you can try asking the [community](../community.md), but no support is guaranteed.
 
-## Boot image (recommended)
+:::danger Data loss on newer devices
 
-Patching the boot image is the recommend way to root with Magisk.
+On the Pixel 4a 5G and newer devices, rooting requires disabling system verification, which will cause **data loss** if you have not already done so. Make sure you have a backup if you're planning to root for the first time.
 
-### Download the boot image
+:::
 
-The boot image is different for every device we support, so it's important that you download the correct one. You can get the boot image (`boot.img`) by [downloading factory images](../getting-started/download.md#factory-images) and extracting the inner images (e.g. `image-redfin-spp3.210325.010.zip`).
+## Installing Magisk
 
-Some devices also have a `vendor_boot.img` image. If you see this file, ignore it; `boot.img` is always the correct one to use.
+Patching the boot and vbmeta images is the recommend way to root with Magisk.
+
+### Download the boot and vbmeta images
+
+The boot and vbmeta images are different for every device we support, so it's important that you download the correct ones:
+
+- Early access releases: Individual images can be found on [early access release pages](https://protonaosp.kdrag0n.dev/versions/12.1.0#boot-and-vbmeta-images).
+- Public releases: [Download the factory images](../getting-started/download.md#factory-images) and extract the inner images (e.g. `image-redfin-spp3.210325.010.zip`) to get `boot.img` and `vbmeta.img`.
+
+Some devices also have a `vendor_boot.img` image. If you see this file, ignore it; `boot.img` is the only one you need for rooting.
+
+### Install the Magisk app
+
+Download and install the latest stable version of the Magisk app from [GitHub](https://github.com/topjohnwu/Magisk/releases).
+
+If you have a Pixel 6 or 6 Pro, you will need to download and install the latest version of [Magisk Canary](https://github.com/topjohnwu/magisk-files/raw/canary/app-debug.apk) as the stable version doesn't support the Pixel 6 series yet.
 
 ### Patch the boot image
 
 Follow the [official Magisk instructions](https://topjohnwu.github.io/Magisk/install.html#patching-images) to patch and flash the boot image.
 
-## Custom recovery
+### Disable verification
 
-On devices with a custom recovery that works well, such as [TWRP](https://twrp.me) for the Pixel 2 series, it can be easier to install Magisk by flashing it in the custom recovery:
+On the Pixel 4a 5G and newer devices, you also need to disable system integrity verification in order for the rooted boot image to work:
 
-1. [Download and boot a custom recovery](../getting-started/install/manual.mdx#download-a-custom-recovery)
-2. [Download the latest version of Magisk](https://github.com/topjohnwu/Magisk/releases)
-3. `adb sideload Magisk-v23.0.apk`
+```bash
+fastboot flash --disable-verity --disable-verification vbmeta vbmeta.img
+```
+
+If you see a "Cannot load Android system. Your data may be corrupt" error, make sure you didn't miss this step.
+
+## Passing SafetyNet
+
+ProtonAOSP passes SafetyNet out-of-the-box, but rooting will cause SafetyNet to fail again. To fix this, enable MagiskHide in the Magisk settings and add "Google Play Services" (specifically the `com.google.android.gms.unstable` process) to the list of hidden apps.
+
+On Magisk Canary, the process is similar, but not identical. Instead, enable Zygisk and DenyList in the Magisk settings and restart your device. You can then use the following command to add Google Play Services to the DenyList:
+
+```bash
+adb shell magisk --denylist add com.google.android.gms com.google.android.gms.unstable
+```
