@@ -6,7 +6,7 @@ sidebar_position: 30
 
 If you have a question, please read or search this page before asking. It saves time for everyone — especially you.
 
-**[You can also search for your question.](/search)**
+**[You can also search for the answer to your question.](/search)**
 
 ## Features
 
@@ -25,18 +25,9 @@ Examples of features that will not be added, because they are proprietary and ca
 
 It is also **very unlikely** that we will add customization features, as this is not a customization-focused ROM.
 
-### Why is this Pixel feature missing? {#missing-pixel-feature}
+### Why are Pixel features missing? {#missing-pixel-feature}
 
-Most Pixel-exclusive features are proprietary and thus cannot be added without tedious reverse engineering that takes away from development time. From the answer above:
-
-> This includes:
->
-> - New Google Assistant
-> - Weather on the lock screen or ambient display
-> - Now Playing song on the lock screen or ambient display
-> - "Rules" automation in Settings
-> - Pixel Launcher
-> - Live Space
+Many Pixel-exclusive features are proprietary and cannot be added without tedious reverse engineering that takes away from development time. See [Pixel-exclusive features](discover/features.md#pixel-exclusive) for detailed lists of supported and missing features.
 
 ### Where are the customization settings? {#customization-settings}
 
