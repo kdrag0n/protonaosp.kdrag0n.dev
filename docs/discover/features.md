@@ -137,6 +137,7 @@ Not all Pixel-exclusive features are supported due to their proprietary nature. 
 - Auto-rotate face detection
 - Call screening
 - Flip to Shhh
+- Google Discover feed
 - Increased touch sensitivity
 - Live Caption
 - Live Translate
