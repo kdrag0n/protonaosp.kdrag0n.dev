@@ -167,10 +167,11 @@ module.exports = {
       id: 'release_12.1.0-test1',
       content: '<a href="/versions/12.1.0?utm_source=docs-banner&utm_campaign=12.1.0-banner">ProtonAOSP 12.1.0 is now available in early access with Pixel 6 support!</a>',
     },
-    algolia: {
-      apiKey: 'be0421e91706696bc4c772cc532e2f0c',
-      indexName: 'protonaosp',
-    },
+    algolia: process.env.ALGOLIA_API_KEY !== undefined ? {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
+    } : undefined,
     goatcounter: process.env.GOATCOUNTER_CODE !== undefined ? {
       code: process.env.GOATCOUNTER_CODE,
     } : undefined,
