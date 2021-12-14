@@ -9,7 +9,7 @@ You don't need to download ProtonAOSP yourself in most cases. Use the [web insta
 
 Variants with gapps include Google services and apps necessary for most popular apps to work, including the Google Play Store. Minimal variants lack support for such apps, but they are more privacy-friendly.
 
-The following downloads are for the latest public version, [12.0.0](../versions/12/12.0.0.md).
+The following downloads are for the latest public version, [12.1.0](../versions/12/12.1.0.md).
 
 :::caution
 
@@ -21,9 +21,9 @@ For Pixel devices, XL models are different from their smaller counterparts. Flas
 
 Factory images can be flashed the same way you would flash stock Pixel factory images from Google. Check the [manual installation guide](install/manual.mdx) for instructions.
 
-- Pixel 5 (redfin): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.0.0/proton-aosp_redfin-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.0.0/proton-aosp_redfin-factory_12.0.0-gapps.zip)
-- Pixel 4a 5G (bramble): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.0.0/proton-aosp_bramble-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.0.0/proton-aosp_bramble-factory_12.0.0-gapps.zip)
-- Pixel 4 (flame): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_flame-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_flame-factory_12.0.0-gapps.zip)
-- Pixel 4 XL (coral): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_coral-factory_12.0.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.0.0/proton-aosp_coral-factory_12.0.0-gapps.zip)
+- Pixel 5 (redfin): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.1.0/proton-aosp_redfin-factory_12.1.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.1.0/proton-aosp_redfin-factory_12.1.0-gapps.zip)
+- Pixel 4a 5G (bramble): [minimal](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.1.0/proton-aosp_bramble-factory_12.1.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_redbull/releases/download/v12.1.0/proton-aosp_bramble-factory_12.1.0-gapps.zip)
+- Pixel 4 (flame): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.1.0/proton-aosp_flame-factory_12.1.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.1.0/proton-aosp_flame-factory_12.1.0-gapps.zip)
+- Pixel 4 XL (coral): [minimal](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.1.0/proton-aosp_coral-factory_12.1.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_coral/releases/download/v12.1.0/proton-aosp_coral-factory_12.1.0-gapps.zip)
 - Pixel 6 (oriole): [minimal](https://github.com/ProtonAOSP/android_device_google_raviole/releases/download/v12.1.0/proton-aosp_oriole-factory_12.1.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_raviole/releases/download/v12.1.0/proton-aosp_oriole-factory_12.1.0-gapps.zip)
 - Pixel 6 Pro (raven): [minimal](https://github.com/ProtonAOSP/android_device_google_raviole/releases/download/v12.1.0/proton-aosp_raven-factory_12.1.0.zip) | [gapps](https://github.com/ProtonAOSP/android_device_google_raviole/releases/download/v12.1.0/proton-aosp_raven-factory_12.1.0-gapps.zip)
