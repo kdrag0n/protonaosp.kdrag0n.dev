@@ -4,24 +4,24 @@
             {
                 "version": "12.1.0",
                 "variant": "minimal",
-                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_raven-factory_12.1.0.zip"
+                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_raven-factory_12.1.0.zip?"
             },
             {
                 "version": "12.1.0",
                 "variant": "gapps",
-                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_raven-factory_12.1.0-gapps.zip"
+                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_raven-factory_12.1.0-gapps.zip?"
             }
         ],
         "oriole": [
             {
                 "version": "12.1.0",
                 "variant": "minimal",
-                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_oriole-factory_12.1.0.zip"
+                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_oriole-factory_12.1.0.zip?"
             },
             {
                 "version": "12.1.0",
                 "variant": "gapps",
-                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_oriole-factory_12.1.0-gapps.zip"
+                "url": "https://github-releases-proxy.kdrag0n.workers.dev/android_device_google_raviole/v12.1.0/proton-aosp_oriole-factory_12.1.0-gapps.zip?"
             }
         ],
         "redfin": [
