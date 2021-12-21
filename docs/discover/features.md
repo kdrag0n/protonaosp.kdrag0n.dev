@@ -133,9 +133,11 @@ Not all Pixel-exclusive features are supported due to their proprietary nature. 
 - Active Edge
 - Adaptive connectivity
 - Adaptive Sound
+- App suggestions
 - Assistant quick phrases
 - Auto-rotate face detection
 - Call screening
+- Extreme Battery Saver
 - Flip to Shhh
 - Google Discover feed
 - Increased touch sensitivity
@@ -151,10 +153,8 @@ The following features are **not** supported:
 - "At a Glance" on lock screen
 - "Rules" automation
 - Adaptive charging
-- App suggestions
 - Battery Share
 - Detailed battery usage history slots
-- Extreme Battery Saver
 - Game Dashboard
 - Motion Sense
 - New Material You "At a Glance" (Android 11 version works)

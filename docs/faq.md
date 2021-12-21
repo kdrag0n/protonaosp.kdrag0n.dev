@@ -48,6 +48,7 @@ Official "gapps" builds include a bare minimum set of apps for full functionalit
 | Google Search | Required for Google Assistant hotword detection ("Ok Google" trigger) to work properly |
 | Google Text-To-Speech | AOSP is missing a TTS implementation |
 | Google Photos | AOSP Gallery is lacking in maintenance and functionality |
+| Google Phone | Required for call screening |
 | Android Auto | Only works as a system app |
 | Digital Wellbeing | Only works as a system app |
 | Play Store | Allows downloading apps from Google Play |

@@ -163,12 +163,10 @@ module.exports = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    /*
     announcementBar: {
-      id: 'release_12.1.0-test1',
-      content: '<a href="/versions/12.1.0?utm_source=docs-banner&utm_campaign=12.1.0-banner">ProtonAOSP 12.1.0 is now available in early access with Pixel 6 support!</a>',
+      id: 'release_12.2.0-test1',
+      content: '<a href="/versions/12.2.0?utm_source=docs-banner&utm_campaign=12.2.0-banner">ProtonAOSP 12.2.0 is now available in early access!</a>',
     },
-    */
     algolia: process.env.ALGOLIA_API_KEY !== undefined ? {
       appId: process.env.ALGOLIA_APP_ID,
       apiKey: process.env.ALGOLIA_API_KEY,
