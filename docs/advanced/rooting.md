@@ -23,7 +23,7 @@ Patching the boot and vbmeta images is the recommend way to root with Magisk.
 
 The boot and vbmeta images are different for every device we support, so it's important that you download the correct ones:
 
-- Early access releases: Individual images can be found on [early access release pages](https://protonaosp.kdrag0n.dev/versions/12.1.0#boot-and-vbmeta-images).
+- Early access releases: Individual images can be found on early access release pages.
 - Public releases: [Download the factory images](../getting-started/download.md#factory-images) and extract the inner images (e.g. `image-redfin-spp3.210325.010.zip`) to get `boot.img` and `vbmeta.img`.
 
 Some devices also have a `vendor_boot.img` image. If you see this file, ignore it; `boot.img` is the only one you need for rooting.
