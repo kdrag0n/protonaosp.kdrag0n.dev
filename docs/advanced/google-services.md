@@ -29,7 +29,7 @@ For additional privacy and security, ProtonAOSP has a compatibility layer that a
 - SMS verification receiver (tested with Signal)
 - Play license verification (both in-app purchases and paid apps)
 - Play Store app purchases
-- Play Store app installation (buggy)
+- Play Store app installation and updating
 - SafetyNet (basic integrity passes, but not CTS profile checks)
 - Dynamite modules (e.g. Maps API v2 and Cronet)
 - Play geolocation API (buggy)
