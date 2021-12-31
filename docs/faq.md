@@ -111,7 +111,7 @@ Yes, root will be lost after updating because the entire system gets replaced du
 
 Google's SafetyNet attestation passes out-of-the-box, but it may fail if you've made changes to the system. See [Passing SafetyNet](advanced/safetynet.md) for more information.
 
-### SIM Manager keeps stopping {#sim-manager-crashing}
+### SIM Manager keeps stopping {#sim-manager-crash}
 
 This is caused by our support for eSIM on Pixel devices. Google's eSIM manager depends on Google Play Services, so if you installed the minimal version without subsequently installing microG, it will crash in the background.
 
@@ -126,7 +126,7 @@ You can fix this with any of the following solutions:
 
 This will likely be fixed soon by disabling eSIM automatically in such cases.
 
-### Carrier Services keeps stopping {#carrier-services-crashing}
+### Carrier Services keeps stopping {#carrier-services-crash}
 
 This is the same underlying issue as "SIM Manager keeps stopping," which is answered above.
 
@@ -139,13 +139,13 @@ The solutions are the same -- you can fix this with any of the following:
   adb shell pm uninstall --user 0 com.google.android.ims
   ```
 
-### Settings Services keeps stopping {#settings-services-crashing}
+### Settings Services keeps stopping {#settings-services-crash}
 
 Settings Services is a proprietary Google app that only works on the stock Pixel OS. It's not part of ProtonAOSP, but you may have gotten it by restoring a Google backup from stock.
 
 To fix this issue, uninstall "Settings Services" in Settings -> Apps -> All apps.
 
-### Adaptive Connectivity Services keeps stopping {#acs-crashing}
+### Adaptive Connectivity Services keeps stopping {#acs-crash}
 
 Adaptive Connectivity Services is a proprietary Google app, not part of ProtonAOSP, but you may have gotten it by restoring a Google backup from stock.
 
