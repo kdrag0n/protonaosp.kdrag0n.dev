@@ -139,11 +139,17 @@ The solutions are the same -- you can fix this with any of the following:
   adb shell pm uninstall --user 0 com.google.android.ims
   ```
 
-### Settings Services keeps stopping {#settings-services}
+### Settings Services keeps stopping {#settings-services-crashing}
 
 Settings Services is a proprietary Google app that only works on the stock Pixel OS. It's not part of ProtonAOSP, but you may have gotten it by restoring a Google backup from stock.
 
 To fix this issue, uninstall "Settings Services" in Settings -> Apps -> All apps.
+
+### Adaptive Connectivity Services keeps stopping {#acs-crashing}
+
+Adaptive Connectivity Services is a proprietary Google app, not part of ProtonAOSP, but you may have gotten it by restoring a Google backup from stock.
+
+To fix this issue, uninstall "Adaptive Connectivity Services" in Settings -> Apps -> All apps.
 
 ### RCS doesn't activate {#rcs}
 
