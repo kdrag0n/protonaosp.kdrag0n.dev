@@ -12,8 +12,8 @@ yarn build
 pushd android-webinstall
 yarn install
 # Production URL is hidden because it's embedded in a docs iframe
-export BASE_URL=https://protonaosp.kdrag0n.dev/install/_web/
-export VUE_APP_PROD_URL=https://protonaosp.kdrag0n.dev/install/_web/
+export BASE_URL=https://protonaosp.org/install/_web/
+export VUE_APP_PROD_URL=https://protonaosp.org/install/_web/
 yarn build
 popd
 
