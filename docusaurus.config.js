@@ -154,7 +154,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://kdrag0n.dev/">Danny Lin (kdrag0n)</a><br><span class="footer__link-item">Android is a trademark of Google LLC.</span>`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://kdrag0n.dev/">Danny Lin (kdrag0n)</a><br><span style="color:var(--ifm-footer-link-color);display:inline-block;padding-top:1em">Android is a trademark of Google LLC.</span><br><span style="color:var(--ifm-footer-link-color)">ProtonAOSP is not affiliated with Proton AG.</span>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/nightOwlLight'),
