@@ -11,9 +11,9 @@ Variants with gapps include Google services and apps necessary for most popular 
 
 The following downloads are for the latest public version, [12.2.3](../versions/12/12.2.3.md).
 
-:::caution
+:::tip Android 12L
 
-For Pixel devices, XL models are different from their smaller counterparts. Flashing the wrong one could brick your device, so make sure you download the right one.
+A new version based on Android 12L is available in [early access](../versions/12/12.3.0.md).
 
 :::
 
