@@ -11,12 +11,6 @@ Variants with gapps include Google services and apps necessary for most popular 
 
 The following downloads are for the latest public version, [12.3.0](../versions/12/12.3.0.md).
 
-:::tip Android 12L
-
-A new version based on Android 12L is available in [early access](../versions/12/12.3.0.md).
-
-:::
-
 ## Factory images {#factory-images}
 
 Factory images can be flashed the same way you would flash stock Pixel factory images from Google. Check the [manual installation guide](install/manual.mdx) for instructions.
