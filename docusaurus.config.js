@@ -167,14 +167,14 @@ module.exports = {
       id: 'release_12.3.2-test1',
       content: '<a href="/versions/12.3.2?utm_source=docs-banner&utm_campaign=12.3.2-banner">ProtonAOSP 12.3.2 is now available in early access!</a>',
     },
-    algolia: process.env.ALGOLIA_API_KEY !== undefined ? {
+    algolia: process.env.ALGOLIA_API_KEY && {
       appId: process.env.ALGOLIA_APP_ID,
       apiKey: process.env.ALGOLIA_API_KEY,
       indexName: process.env.ALGOLIA_INDEX_NAME,
-    } : undefined,
-    goatcounter: process.env.GOATCOUNTER_CODE !== undefined ? {
+    },
+    goatcounter: process.env.GOATCOUNTER_CODE && {
       code: process.env.GOATCOUNTER_CODE,
-    } : undefined,
+    },
   },
   presets: [
     [
