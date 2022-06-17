@@ -165,7 +165,7 @@ module.exports = {
     },
     announcementBar: {
       id: 'release_12.4.0-test1',
-      content: '<a href="/versions/12.4.0?utm_source=docs-banner&utm_campaign=12.4.0-banner">ProtonAOSP 12.4.0 is now available in early access!</a>',
+      content: '<a href="/versions/12.4.0?utm_source=docs-banner&utm_campaign=12.4.0-banner">ProtonAOSP 12.4.0 is now available in early access</a>',
     },
     algolia: process.env.ALGOLIA_API_KEY && {
       appId: process.env.ALGOLIA_APP_ID,
