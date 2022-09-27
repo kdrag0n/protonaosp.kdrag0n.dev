@@ -172,9 +172,6 @@ module.exports = {
       apiKey: process.env.ALGOLIA_API_KEY,
       indexName: process.env.ALGOLIA_INDEX_NAME,
     },
-    goatcounter: process.env.GOATCOUNTER_CODE && {
-      code: process.env.GOATCOUNTER_CODE,
-    },
   },
   presets: [
     [
@@ -202,8 +199,5 @@ module.exports = {
       defer: true,
       'data-skip-dnt': 'true',
     }
-  ] : undefined,
-  plugins: process.env.GOATCOUNTER_CODE !== undefined ? [
-    'docusaurus-plugin-goatcounter',
   ] : undefined,
 };
