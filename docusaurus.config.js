@@ -192,12 +192,18 @@ module.exports = {
       },
     ],
   ],
-  scripts: process.env.SA_DOMAIN !== undefined ? [
+  scripts: process.env.SA_DOMAIN && [
     {
       src: `https://${process.env.SA_DOMAIN}/latest.js`,
       async: true,
       defer: true,
       'data-skip-dnt': 'true',
+    },
+    {
+      src: 'https://kdrag0n.dev/js/plaus.js',
+      async: true,
+      defer: true,
+      'data-domain': 'protonaosp.org',
     }
-  ] : undefined,
+  ],
 };
